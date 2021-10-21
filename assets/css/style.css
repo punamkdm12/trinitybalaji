@@ -46,6 +46,9 @@
 .title_name{
   color: #ff4935;
 }
+.about-low-area .about-right-cap {
+  padding-top: 15px;
+}
 
 .custom-link{
   color:#000;
@@ -3075,18 +3078,46 @@ hr {
 
 /* line 984, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_common.scss */
 .section-tittle h2 {
-  font-size: 20px;
+  font-size: 25px;
   display: block;
   color: #072366;
   font-weight: 800;
   text-transform: normal;
   line-height: 1.4;
 }
+.section-title h2 {
+  font-size: 25px;
+  display: block;
+  color: #072366;
+  font-weight: 800;
+  text-transform: normal;
+  line-height: 0.2;
+}
+
+.section-title h1 {
+  font-size: 45px;
+  display: block;
+  color: #072366;
+  font-weight: 800;
+  text-transform: normal;
+  line-height: 40px;
+}
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   /* line 984, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_common.scss */
   .section-tittle h2 {
-    font-size: 20px;
+    font-size: 25px;
+  }
+  .section-title h2 {
+    font-size: 25px;
+  }
+  .section-title h1 {
+    font-size: 45px;
+    display: block;
+    color: #072366;
+    font-weight: 800;
+    text-transform: normal;
+    line-height: 62px;
   }
 }
 
@@ -3095,6 +3126,17 @@ hr {
   .section-tittle h2 {
     font-size: 20px;
   }
+  .section-title h2 {
+    font-size: 20px;
+  }
+  .section-title h1 {
+    font-size: 35px;
+    display: block;
+    color: #072366;
+    font-weight: 800;
+    text-transform: normal;
+    line-height: 72px;
+  }
 }
 
 @media (max-width: 575px) {
@@ -3102,6 +3144,18 @@ hr {
   .section-tittle h2 {
     text-align: left;
     font-size: 23px;
+  }
+  .section-title h2 {
+    text-align: left;
+    font-size: 23px;
+  }
+  .section-title h1 {
+    font-size: 35px;
+    display: block;
+    color: #072366;
+    font-weight: 800;
+    text-transform: normal;
+    line-height: 71px;
   }
 }
 
@@ -3683,12 +3737,11 @@ hr {
 /* line 37, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_h1-hero.scss */
 .slider-area {
   margin-top: -1px;
-  background-image: url(../img/hero/h1_hero.png);
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
-  background-attachment: fixed;
-}
+  }
+
 
 /* line 44, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_h1-hero.scss */
 .slider-area .hero__caption {
@@ -3707,7 +3760,7 @@ hr {
   font-size: 70px;
   font-weight: 700;
   margin-bottom: 14px;
-  color: #fff;
+  color: #ec3b1f;
   line-height: 1.2;
   margin-bottom: 29px;
   text-transform: capitalize;
@@ -3748,7 +3801,7 @@ hr {
 /* line 88, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_h1-hero.scss */
 .slider-area .hero__caption p {
   font-size: 27px;
-  color: #fff;
+  color:#ec3b1f;
   font-family: "Muli", sans-serif;
   margin-bottom: 50px;
 }
@@ -4039,35 +4092,35 @@ hr {
 @media (max-width: 575px) {
   /* line 55, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_about.scss */
   .about-low-area .about-right-cap {
-    padding-top: 50px;
+    padding-top: 15px;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   /* line 55, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_about.scss */
   .about-low-area .about-right-cap {
-    padding-top: 50px;
+    padding-top: 15px;
   }
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   /* line 55, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_about.scss */
   .about-low-area .about-right-cap {
-    padding-top: 50px;
+    padding-top: 15px;
   }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   /* line 55, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_about.scss */
   .about-low-area .about-right-cap {
-    padding-top: 50px;
+    padding-top: 15px;
   }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   /* line 55, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_about.scss */
   .about-low-area .about-right-cap {
-    padding-top: 50px;
+    padding-top: 15px;
   }
 }
 
@@ -4084,7 +4137,7 @@ hr {
   left: -33px;
   width: 179px;
   height: 180px;
-  padding: 31px 10px;
+  padding: 20px 10px;
   background: #FF3514;
   text-align: center;
 }
