@@ -3139,6 +3139,14 @@ hr {
   line-height: 1.0;
 }
 
+.section-title h3 {
+  font-size: 20px;
+  display: block;
+  color: #072366;
+  font-weight: 800;
+  text-transform: normal;
+  line-height: 1.4;
+}
 .section-title h1 {
   font-size: 45px;
   display: block;
