@@ -52,11 +52,14 @@
 }
 .btn-primary1 {
   background-color:#ff4935;
-  padding: 20px 40px;
+ padding-top: 10px;
+ padding-bottom: 20px;
   font-size: 30px;
-  border-radius: 50px;
+  border-radius: 30px;
   width:50%;
-  height: 100%;
+  border: none;
+  text-align: center;
+  height: 80%;
   font-size: 2.0rem;
 
 }
