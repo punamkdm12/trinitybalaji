@@ -104,6 +104,11 @@
     text-decoration: none;
 }
 
+.xl-font-custom{
+  font-size: 100px;
+  color: #bfbfbf;
+}
+
 /*-------------Color include--------------*/
 /*-- Background color---*/
 /* line 60, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_color.scss */
