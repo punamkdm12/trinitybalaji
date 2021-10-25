@@ -336,3 +336,11 @@ var testimonial = $('.h1-testimonial-active');
     });
 
 })(jQuery);
+
+
+//carousel
+var myCarousel = document.querySelector('#myCarousel')
+var carousel = new bootstrap.Carousel(myCarousel, {
+  interval: 2000,
+  wrap: false
+})
