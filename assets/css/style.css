@@ -72,11 +72,12 @@
   background-color: #61ce70;
   font-size: 20px;
   font-weight: 500;
-  padding: 15px 30px;
+  padding: 12px 30px;
   -webkit-border-radius: 4px;
   border-radius: 4px;
   border: none;
   align-items: center;
+  text-align: center;
   color: white;
 }
 
@@ -91,6 +92,10 @@
 .orangeiconcolor {
   color:#ff4935;
 }
+.yellowiconcolor{
+  color: #fcd303;
+}
+
 .about-low-area .about-right-cap {
   padding-top: 5px;
 }
