@@ -92,8 +92,78 @@
 .orangeiconcolor {
   color:#ff4935;
 }
+.orangebgcolor{
+    background-color: #e17c27;
+    color: #E2E2E2;
+    font-weight: 700;
+}
+.orangetextcolor{
+  color: #e17c27;
+}
+.orange-btn{
+  background-color: #e17c27;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 12px 30px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  border: none;
+  align-items: center;
+  text-align: center;
+}
+
+.blue-btn{
+  background-color: #20b2cd;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 12px 30px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  border: none;
+  align-items: center;
+  text-align: center;
+}
+.dark-blue-btn{
+  background-color: #1f31ae;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 12px 30px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  border: none;
+  align-items: center;
+  text-align: center;
+}
+.bluebgcolor{
+  background-color: #20b2cd;
+  color: #E2E2E2;
+  font-weight: 700;
+}
+.bluetextcolor{
+  color: #20b2cd;
+}
+.darkbluetextcolor{
+  color: #1f31ae;
+}
+.darkbluebgcolor{
+  background-color: #1f31ae;
+  color: #E2E2E2;
+  font-weight: 700;
+}
+
 .yellowiconcolor{
   color: #fcd303;
+}
+.custom-indent {
+  padding-left: 2em;
+  position: relative;
+}
+.custom-indent-li {
+  position: absolute;
+  left: 0;
 }
 
 .about-low-area .about-right-cap {
@@ -3408,7 +3478,6 @@ hr {
 
 /* line 30, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_headerMenu.scss */
 .header-area .header-top {
-  background: #140C40;
   padding: 0px 0px;
 }
 
