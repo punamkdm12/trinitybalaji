@@ -165,6 +165,28 @@
   position: absolute;
   left: 0;
 }
+.cut-corner {
+
+  margin:10px;
+  height:300px;
+  fill: #f7685b;
+   border: 2px solid #f7685b;
+   background:
+    linear-gradient(to bottom right,transparent 0%,#f7685b 0%) 
+    bottom right/100% 100% no-repeat;
+  clip-path:polygon(0 0,100% 0,100% calc(100% - 200px),calc(100% - 30%) 100%, 0 100%); 
+
+}
+
+/* 
+.cut-corner:before {
+  content: '';
+  position: absolute;
+   top:0;right: 0px;
+  border-bottom: 300px solid white;
+  border-left: 250px solid #f7685b;
+  width: 0;
+} */
 
 .about-low-area .about-right-cap {
   padding-top: 5px;
