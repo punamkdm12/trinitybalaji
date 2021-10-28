@@ -114,6 +114,11 @@
   align-items: center;
   text-align: center;
 }
+.orangeunderline {
+  text-decoration: underline;
+  text-decoration-color: #e17c27;
+  text-decoration-thickness: 3px;
+}
 
 .blue-btn{
   background-color: #20b2cd;
@@ -171,9 +176,10 @@
   left: 0;
 }
 .cut-corner {
+  padding-top: 250px;
 
   margin:10px;
-  height:320px;
+  height:330px;
   fill: #f7685b;
    border: 2px solid #f7685b;
    background:
@@ -182,16 +188,14 @@
   clip-path:polygon(0 0,100% 0,100% calc(100% - 200px),calc(100% - 30%) 100%, 0 100%); 
 
 }
-
-/* 
-.cut-corner:before {
-  content: '';
-  position: absolute;
-   top:0;right: 0px;
-  border-bottom: 300px solid white;
-  border-left: 250px solid #f7685b;
-  width: 0;
-} */
+.nopadding {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+.custom-width-70{
+  width: 70%;
+  margin: auto;
+}
 
 .about-low-area .about-right-cap {
   padding-top: 5px;
@@ -7604,7 +7608,23 @@ hr {
   background: #4A3600;
   opacity: 0.6;
 }
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3)
 
+{
+  .cut-corner {
+padding-top: 150px;
+    margin:10px;
+    height:200px;
+    fill: #f7685b;
+     border: 2px solid #f7685b;
+     background:
+      linear-gradient(to bottom right,transparent 0%,#f7685b 0%) 
+      bottom right/100% 100% no-repeat;
+    clip-path:polygon(0 0,100% 0,100% calc(100% - 200px),calc(100% - 30%) 100%, 0 100%); 
+  
+  }
+
+}
 @media (max-width: 767px) {
   /* line 208, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_bradcam.scss */
   .gj-picker.gj-picker-md.timepicker {
