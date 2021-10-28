@@ -209,6 +209,9 @@
 .custom-hidden {
   display:none;
 }
+.font-25{
+  font-size: 22px;
+}
 /*-------------Color include--------------*/
 /*-- Background color---*/
 /* line 60, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_color.scss */
