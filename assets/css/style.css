@@ -202,6 +202,27 @@
   margin: auto;
 }
 
+.iconWrapper{
+  font-size:1.3em;
+  border-radius: 50%;
+  color: white;
+  line-height: 2em;
+  width: 45px;
+  height: 45px;
+  background-color: orange;
+  text-align: center;
+  display: inline-block;
+    transition:0.5s;
+}
+/* .layer {
+  display: table-row
+}
+.iconWrapper .layer i{
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  color: white;
+} */
 .about-low-area .about-right-cap {
   padding-top: 5px;
 }
