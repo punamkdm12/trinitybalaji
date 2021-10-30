@@ -114,21 +114,7 @@
   align-items: center;
   text-align: center;
 }
-.navbar-toggler{
-  width: 47px;
-  height: 34px;
-  background-color: #7eb444;
-  }
-  .blackColor{
-    background-color: black;
-  }
-  .navbar-toggler .line{
-    width: 100%;
-    float: left;
-    height: 2px;
-    background-color: #fff;
-    margin-bottom: 5px;
-    }
+
 .purple-btn{
   background-color: #4054B2;
   color: white;
@@ -538,11 +524,7 @@ a:hover,
 }
 
 /* line 84, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_common.scss */
-a,
-button {
-  color: #fff;
-  outline: medium none;
-}
+
 
 /* line 89, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_common.scss */
 button:focus, input:focus, input:focus, textarea, textarea:focus {
