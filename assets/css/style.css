@@ -114,6 +114,9 @@
   align-items: center;
   text-align: center;
 }
+.navbar-toggle, .icon-bar {
+  border:1px solid orange;
+}
 .purple-btn{
   background-color: #4054B2;
   color: white;
