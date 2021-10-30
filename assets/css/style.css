@@ -114,6 +114,19 @@
   align-items: center;
   text-align: center;
 }
+.purple-btn{
+  background-color: #4054B2;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 12px 30px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  border: none;
+  align-items: center;
+  text-align: center;
+}
+
 .orangeunderline {
   text-decoration: underline;
   text-decoration-color: #e17c27;
