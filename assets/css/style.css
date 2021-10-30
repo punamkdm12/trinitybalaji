@@ -114,9 +114,21 @@
   align-items: center;
   text-align: center;
 }
-.navbar-toggle, .icon-bar {
-  border:1px solid orange;
-}
+.navbar-toggler{
+  width: 47px;
+  height: 34px;
+  background-color: #7eb444;
+  }
+  .blackColor{
+    background-color: black;
+  }
+  .navbar-toggler .line{
+    width: 100%;
+    float: left;
+    height: 2px;
+    background-color: #fff;
+    margin-bottom: 5px;
+    }
 .purple-btn{
   background-color: #4054B2;
   color: white;
@@ -659,13 +671,18 @@ hr {
   .mb-90 {
     margin-bottom: 30px;
   }
-
+  .blackColor{
+    background-color: black;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
   /* line 182, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_common.scss */
   .mb-90 {
     margin-bottom: 45px;
+  }
+  .blackColor{
+    background-color: black;
   }
 
 .trinity_logo {
@@ -936,6 +953,9 @@ hr {
     display: block;
     margin: 0 auto;
   }
+  .blackColor{
+    background-color: black;
+  }
 }
 
 /* line 417, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_common.scss */
@@ -1012,6 +1032,9 @@ hr {
   /* line 466, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_common.scss */
   #scrollUp, #back-top {
     right: 16px;
+  }
+  .blackColor{
+    background-color: black;
   }
 }
 
@@ -2870,6 +2893,12 @@ hr {
     padding-top: 200px;
     padding-bottom: 200px;
   }
+  .blackColor{
+    background-color: black;
+  }
+  .blackColor{
+    background-color: black;
+  }
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -2877,6 +2906,9 @@ hr {
   .section-padding2 {
     padding-top: 200px;
     padding-bottom: 200px;
+  }
+  .blackColor{
+    background-color: black;
   }
 }
 
@@ -2886,6 +2918,9 @@ hr {
     padding-top: 100px;
     padding-bottom: 100px;
   }
+  .blackColor{
+    background-color: black;
+  }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
@@ -2894,6 +2929,9 @@ hr {
     padding-top: 70px;
     padding-bottom: 70px;
   }
+  .blackColor{
+    background-color: black;
+  }
 }
 
 @media (max-width: 575px) {
@@ -2901,6 +2939,9 @@ hr {
   .section-padding2 {
     padding-top: 70px;
     padding-bottom: 70px;
+  }
+  .blackColor{
+    background-color: black;
   }
 }
 
@@ -2914,6 +2955,9 @@ hr {
   .pb-bottom {
     padding-bottom: 110px;
   }
+  .blackColor{
+    background-color: black;
+  }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
@@ -2921,12 +2965,21 @@ hr {
   .pb-bottom {
     padding-bottom: 10px;
   }
+  .blackColor{
+    background-color: black;
+  }
 }
 
 @media (max-width: 575px) {
   /* line 774, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_common.scss */
   .pb-bottom {
     padding-bottom: 10px;
+  }
+  .blackColor{
+    background-color: black;
+  }
+  .blackColor{
+    background-color: black;
   }
 }
 
@@ -2940,6 +2993,9 @@ hr {
   .pb-top {
     padding-top: 70px;
   }
+  .blackColor{
+    background-color: black;
+  }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
@@ -2947,12 +3003,18 @@ hr {
   .pb-top {
     padding-top: 70px;
   }
+  .blackColor{
+    background-color: black;
+  }
 }
 
 @media (max-width: 575px) {
   /* line 786, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_common.scss */
   .pb-top {
     padding-top: 70px;
+  }
+  .blackColor{
+    background-color: black;
   }
 }
 
@@ -2965,6 +3027,9 @@ hr {
   /* line 798, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_common.scss */
   .w-padding2 {
     padding: 70px 20px;
+  }
+  .blackColor{
+    background-color: black;
   }
 }
 
@@ -2985,6 +3050,9 @@ hr {
     padding-top: 190px;
     padding-bottom: 170px;
   }
+  .blackColor{
+    background-color: black;
+  }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -2992,6 +3060,9 @@ hr {
   .testimonial-padding {
     padding-top: 70px;
     padding-bottom: 60px;
+  }
+  .blackColor{
+    background-color: black;
   }
 }
 
@@ -3001,6 +3072,9 @@ hr {
     padding-top: 60px;
     padding-bottom: 40px;
   }
+  .blackColor{
+    background-color: black;
+  }
 }
 
 @media (max-width: 575px) {
@@ -3008,6 +3082,9 @@ hr {
   .testimonial-padding {
     padding-top: 60px;
     padding-bottom: 40px;
+  }
+  .blackColor{
+    background-color: black;
   }
 }
 
@@ -3023,6 +3100,9 @@ hr {
     padding-top: 70px;
     padding-bottom: 70px;
   }
+  .blackColor{
+    background-color: black;
+  }
 }
 
 @media (max-width: 575px) {
@@ -3030,6 +3110,9 @@ hr {
   .w-padding {
     padding-top: 70px;
     padding-bottom: 70px;
+  }
+  .blackColor{
+    background-color: black;
   }
 }
 
@@ -3045,6 +3128,9 @@ hr {
     padding-top: 150px;
     padding-bottom: 140px;
   }
+  .blackColor{
+    background-color: black;
+  }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -3052,6 +3138,9 @@ hr {
   .section-padding30 {
     padding-top: 100px;
     padding-bottom: 70px;
+  }
+  .blackColor{
+    background-color: black;
   }
 }
 
@@ -3061,6 +3150,9 @@ hr {
     padding-top: 65px;
     padding-bottom: 70px;
   }
+  .blackColor{
+    background-color: black;
+  }
 }
 
 @media (max-width: 575px) {
@@ -3068,6 +3160,9 @@ hr {
   .section-padding30 {
     padding-top: 65px;
     padding-bottom: 70px;
+  }
+  .blackColor{
+    background-color: black;
   }
 }
 
@@ -3083,6 +3178,9 @@ hr {
     padding-top: 10px;
     padding-bottom: 10px;
   }
+  .blackColor{
+    background-color: black;
+  }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
@@ -3091,6 +3189,9 @@ hr {
     padding-top: 10px;
     padding-bottom: 10px;
   }
+  .blackColor{
+    background-color: black;
+  }
 }
 
 @media (max-width: 575px) {
@@ -3098,6 +3199,9 @@ hr {
   .section-padding40 {
     padding-top: 10px;
     padding-bottom: 10px;
+  }
+  .blackColor{
+    background-color: black;
   }
 }
 
@@ -3113,6 +3217,9 @@ hr {
     padding-top: 145px;
     padding-bottom: 170px;
   }
+  .blackColor{
+    background-color: black;
+  }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -3120,6 +3227,9 @@ hr {
   .services-padding {
     padding-top: 100px;
     padding-bottom: 70px;
+  }
+  .blackColor{
+    background-color: black;
   }
 }
 
@@ -3129,6 +3239,9 @@ hr {
     padding-top: 65px;
     padding-bottom: 70px;
   }
+  .blackColor{
+    background-color: black;
+  }
 }
 
 @media (max-width: 575px) {
@@ -3136,6 +3249,9 @@ hr {
   .services-padding {
     padding-top: 65px;
     padding-bottom: 70px;
+  }
+  .blackColor{
+    background-color: black;
   }
 }
 
@@ -3151,6 +3267,9 @@ hr {
     padding-top: 150px;
     padding-bottom: 90px;
   }
+  .blackColor{
+    background-color: black;
+  }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -3158,6 +3277,9 @@ hr {
   .section-paddingt30 {
     padding-top: 100px;
     padding-bottom: 40px;
+  }
+  .blackColor{
+    background-color: black;
   }
 }
 
@@ -3167,6 +3289,9 @@ hr {
     padding-top: 65px;
     padding-bottom: 10px;
   }
+  .blackColor{
+    background-color: black;
+  }
 }
 
 @media (max-width: 575px) {
@@ -3174,6 +3299,9 @@ hr {
   .section-paddingt30 {
     padding-top: 65px;
     padding-bottom: 10px;
+  }
+  .blackColor{
+    background-color: black;
   }
 }
 
@@ -3189,6 +3317,9 @@ hr {
     padding-top: 150px;
     padding-bottom: 0;
   }
+  .blackColor{
+    background-color: black;
+  }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -3196,6 +3327,9 @@ hr {
   .section-padding3 {
     padding-top: 60px;
     padding-bottom: 0;
+  }
+  .blackColor{
+    background-color: black;
   }
 }
 
@@ -3205,6 +3339,9 @@ hr {
     padding-top: 60px;
     padding-bottom: 0;
   }
+  .blackColor{
+    background-color: black;
+  }
 }
 
 @media (max-width: 575px) {
@@ -3212,6 +3349,9 @@ hr {
   .section-padding3 {
     padding-top: 60px;
     padding-bottom: 0;
+  }
+  .blackColor{
+    background-color: black;
   }
 }
 
@@ -3227,6 +3367,9 @@ hr {
     padding-top: 100px;
     padding-bottom: 70px;
   }
+  .blackColor{
+    background-color: black;
+  }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
@@ -3234,6 +3377,9 @@ hr {
   .footer-padding {
     padding-top: 80px;
     padding-bottom: 70px;
+  }
+  .blackColor{
+    background-color: black;
   }
 }
 
@@ -3243,6 +3389,9 @@ hr {
     padding-top: 80px;
     padding-bottom: 0px;
   }
+  .blackColor{
+    background-color: black;
+  }
 }
 
 @media (max-width: 575px) {
@@ -3251,12 +3400,18 @@ hr {
     margin-bottom: 50px;
     text-align: left !important;
   }
+  .blackColor{
+    background-color: black;
+  }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   /* line 958, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_common.scss */
   .section-tittle {
     margin-bottom: 50px;
+  }
+  .blackColor{
+    background-color: black;
   }
 }
 
@@ -3281,6 +3436,9 @@ hr {
   .section-tittle span {
     font-size: 14px;
     text-align: left;
+  }
+  .blackColor{
+    background-color: black;
   }
 }
 
@@ -3324,6 +3482,9 @@ hr {
   .section-tittle h2 {
     font-size: 25px;
   }
+  .blackColor{
+    background-color: black;
+  }
   .section-title h2 {
     font-size: 25px;
   }
@@ -3341,6 +3502,9 @@ hr {
   /* line 984, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_common.scss */
   .section-tittle h2 {
     font-size: 20px;
+  }
+  .blackColor{
+    background-color: black;
   }
   .section-title h2 {
     font-size: 20px;
@@ -3360,6 +3524,9 @@ hr {
   .section-tittle h2 {
     text-align: left;
     font-size: 23px;
+  }
+  .blackColor{
+    background-color: black;
   }
   .section-title h2 {
     text-align: left;
@@ -3384,6 +3551,9 @@ hr {
   /* line 1007, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_common.scss */
   .section-tittle2 h2 {
     font-size: 23px;
+  }
+  .blackColor{
+    background-color: black;
   }
 }
 
@@ -3518,6 +3688,9 @@ hr {
   .header-area .header-bottom {
     padding: 17px 0px;
   }
+  .blackColor{
+    background-color: black;
+  }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
@@ -3525,12 +3698,18 @@ hr {
   .header-area .header-bottom {
     padding: 17px 0px;
   }
+  .blackColor{
+    background-color: black;
+  }
 }
 
 @media (max-width: 575px) {
   /* line 3, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_headerMenu.scss */
   .header-area .header-bottom {
     padding: 17px 0px;
+  }
+  .blackColor{
+    background-color: black;
   }
 }
 
@@ -3539,6 +3718,9 @@ hr {
   .header-area {
     box-shadow: 0 10px 15px rgba(25, 25, 25, 0.1);
   }
+  .blackColor{
+    background-color: black;
+  }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
@@ -3546,12 +3728,18 @@ hr {
   .header-area {
     box-shadow: 0 10px 15px rgba(25, 25, 25, 0.1);
   }
+  .blackColor{
+    background-color: black;
+  }
 }
 
 @media (max-width: 575px) {
   /* line 19, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_headerMenu.scss */
   .header-area {
     box-shadow: 0 10px 15px rgba(25, 25, 25, 0.1);
+  }
+  .blackColor{
+    background-color: black;
   }
 }
 
@@ -3592,6 +3780,9 @@ hr {
   .main-header .main-menu {
     margin-right: 30px;
   }
+  .blackColor{
+    background-color: black;
+  }
 }
 
 /* line 67, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_headerMenu.scss */
@@ -3606,6 +3797,9 @@ hr {
   /* line 67, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_headerMenu.scss */
   .main-header .main-menu ul li {
     margin: 0 13px;
+  }
+  .blackColor{
+    background-color: black;
   }
 }
 
@@ -3627,6 +3821,9 @@ hr {
   /* line 75, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_headerMenu.scss */
   .main-header .main-menu ul li a {
     padding: 39px 0px;
+  }
+  .blackColor{
+    background-color: black;
   }
 }
 
@@ -3757,6 +3954,9 @@ hr {
   .header-area .header-sticky.sticky-bar {
     padding: 15px 0px;
   }
+  .blackColor{
+    background-color: black;
+  }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
@@ -3764,12 +3964,18 @@ hr {
   .header-area .header-sticky.sticky-bar {
     padding: 15px 0px;
   }
+  .blackColor{
+    background-color: black;
+  }
 }
 
 @media (max-width: 575px) {
   /* line 204, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_headerMenu.scss */
   .header-area .header-sticky.sticky-bar {
     padding: 15px 0px;
+  }
+  .blackColor{
+    background-color: black;
   }
 }
 
@@ -3852,6 +4058,9 @@ hr {
     width: 251px;
     font-size: 26px;
   }
+  .blackColor{
+    background-color: black;
+  }
 }
 
 @media (max-width: 575px) {
@@ -3859,6 +4068,9 @@ hr {
   .search-model-box .search-model-form input {
     width: 251px;
     font-size: 26px;
+  }
+  .blackColor{
+    background-color: black;
   }
 }
 
@@ -3899,12 +4111,18 @@ hr {
   .slider-height {
     height: 600px;
   }
+  .blackColor{
+    background-color: black;
+  }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   /* line 1, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_h1-hero.scss */
   .slider-height {
     height: 500px;
+  }
+  .blackColor{
+    background-color: black;
   }
 }
 
@@ -3913,12 +4131,18 @@ hr {
   .slider-height {
     height: 500px;
   }
+  .blackColor{
+    background-color: black;
+  }
 }
 
 @media (max-width: 575px) {
   /* line 1, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_h1-hero.scss */
   .slider-height {
     height: 500px;
+  }
+  .blackColor{
+    background-color: black;
   }
 }
 
@@ -3933,6 +4157,9 @@ hr {
   .slider-height2 {
     height: 350px;
   }
+  .blackColor{
+    background-color: black;
+  }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
@@ -3940,12 +4167,18 @@ hr {
   .slider-height2 {
     height: 260px;
   }
+  .blackColor{
+    background-color: black;
+  }
 }
 
 @media (max-width: 575px) {
   /* line 18, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_h1-hero.scss */
   .slider-height2 {
     height: 260px;
+  }
+  .blackColor{
+    background-color: black;
   }
 }
 
@@ -3987,6 +4220,9 @@ hr {
     font-size: 70px;
     line-height: 1.2;
   }
+  .blackColor{
+    background-color: black;
+  }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -3994,6 +4230,9 @@ hr {
   .slider-area .hero__caption h1 {
     font-size: 50px;
     line-height: 1.2;
+  }
+  .blackColor{
+    background-color: black;
   }
 }
 
@@ -4003,6 +4242,9 @@ hr {
     font-size: 35px;
     line-height: 1.4;
   }
+  .blackColor{
+    background-color: black;
+  }
 }
 
 @media (max-width: 575px) {
@@ -4010,6 +4252,9 @@ hr {
   .slider-area .hero__caption h1 {
     font-size: 29px;
     line-height: 1.5;
+  }
+  .blackColor{
+    background-color: black;
   }
 }
 
@@ -4026,12 +4271,18 @@ hr {
   .slider-area .hero__caption p {
     padding-right: 13px;
   }
+  .blackColor{
+    background-color: black;
+  }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   /* line 88, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_h1-hero.scss */
   .slider-area .hero__caption p {
     padding-right: 0px;
+  }
+  .blackColor{
+    background-color: black;
   }
 }
 
@@ -4040,6 +4291,9 @@ hr {
   .slider-area .hero__caption p {
     padding-right: 0px;
     font-size: 15px;
+  }
+  .blackColor{
+    background-color: black;
   }
 }
 
@@ -4055,6 +4309,9 @@ hr {
   .slider-area .video-icon {
     right: 48px;
   }
+  .blackColor{
+    background-color: black;
+  }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -4062,12 +4319,18 @@ hr {
   .slider-area .video-icon {
     right: 63px;
   }
+  .blackColor{
+    background-color: black;
+  }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   /* line 106, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_h1-hero.scss */
   .slider-area .video-icon {
     right: 82px;
+  }
+  .blackColor{
+    background-color: black;
   }
 }
 
@@ -4077,6 +4340,9 @@ hr {
     right: 27px;
     bottom: 27px !important;
     top: unset;
+  }
+  .blackColor{
+    background-color: black;
   }
 }
 
@@ -4112,6 +4378,9 @@ hr {
     height: 60px;
     line-height: 60px;
   }
+  .blackColor{
+    background-color: black;
+  }
 }
 
 @media (max-width: 575px) {
@@ -4120,6 +4389,9 @@ hr {
     width: 60px;
     height: 60px;
     line-height: 60px;
+  }
+  .blackColor{
+    background-color: black;
   }
 }
 
@@ -4226,12 +4498,18 @@ hr {
   .slider-area2 .hero-cap h2 {
     font-size: 50px;
   }
+  .blackColor{
+    background-color: black;
+  }
 }
 
 @media (max-width: 575px) {
   /* line 238, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_h1-hero.scss */
   .slider-area2 .hero-cap h2 {
     font-size: 27px;
+  }
+  .blackColor{
+    background-color: black;
   }
 }
 
@@ -4255,6 +4533,9 @@ hr {
   .about-low-area .about-caption p {
     padding-right: 20px;
   }
+  .blackColor{
+    background-color: black;
+  }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
@@ -4262,12 +4543,18 @@ hr {
   .about-low-area .about-caption p {
     padding-right: 0px;
   }
+  .blackColor{
+    background-color: black;
+  }
 }
 
 @media (max-width: 575px) {
   /* line 15, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_about.scss */
   .about-low-area .about-caption p {
     padding-right: 0px;
+  }
+  .blackColor{
+    background-color: black;
   }
 }
 
@@ -4283,6 +4570,9 @@ hr {
   .about-low-area .experience span {
     font-size: 42px;
   }
+  .blackColor{
+    background-color: black;
+  }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
@@ -4290,12 +4580,18 @@ hr {
   .about-low-area .experience span {
     font-size: 45px;
   }
+  .blackColor{
+    background-color: black;
+  }
 }
 
 @media (max-width: 575px) {
   /* line 35, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_about.scss */
   .about-low-area .experience span {
     font-size: 45px;
+  }
+  .blackColor{
+    background-color: black;
   }
 }
 
@@ -4309,12 +4605,18 @@ hr {
   .about-low-area .about-right-cap {
     padding-top: 5px;
   }
+  .blackColor{
+    background-color: black;
+  }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   /* line 55, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_about.scss */
   .about-low-area .about-right-cap {
     padding-top: 5px;
+  }
+  .blackColor{
+    background-color: black;
   }
 }
 
@@ -4323,6 +4625,9 @@ hr {
   .about-low-area .about-right-cap {
     padding-top: 5px;
   }
+  .blackColor{
+    background-color: black;
+  }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
@@ -4330,12 +4635,18 @@ hr {
   .about-low-area .about-right-cap {
     padding-top: 5px;
   }
+  .blackColor{
+    background-color: black;
+  }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   /* line 55, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_about.scss */
   .about-low-area .about-right-cap {
     padding-top: 15px;
+  }
+  .blackColor{
+    background-color: black;
   }
 }
 
@@ -4364,6 +4675,9 @@ hr {
     width: 128px;
     height: 145px;
     padding: 8px 10px;
+  }
+  .blackColor{
+    background-color: black;
   }
 }
 
@@ -4411,6 +4725,9 @@ hr {
   .about-low-area .about-right-cap .about-right-cap2 {
     margin-bottom: 0px;
   }
+  .blackColor{
+    background-color: black;
+  }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -4418,12 +4735,8 @@ hr {
   .about-low-area .about-right-cap .about-right-cap2 {
     margin-bottom: 0px;
   }
-}
-
-@media only screen and (min-width: 576px) and (max-width: 767px) {
-  /* line 121, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_about.scss */
-  .about-low-area .about-right-cap .about-right-cap2 {
-    margin-bottom: 0px;
+  .blackColor{
+    background-color: black;
   }
 }
 
@@ -4431,6 +4744,19 @@ hr {
   /* line 121, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_about.scss */
   .about-low-area .about-right-cap .about-right-cap2 {
     margin-bottom: 0px;
+  }
+  .blackColor{
+    background-color: black;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  /* line 121, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_about.scss */
+  .about-low-area .about-right-cap .about-right-cap2 {
+    margin-bottom: 0px;
+  }
+  .blackColor{
+    background-color: black;
   }
 }
 
@@ -4439,12 +4765,18 @@ hr {
   .about-caption {
     margin-bottom: 35px;
   }
+  .blackColor{
+    background-color: black;
+  }
 }
 
 @media (max-width: 575px) {
   /* line 144, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_about.scss */
   .bg-height.pb-160 {
     padding-bottom: 100px;
+  }
+  .blackColor{
+    background-color: black;
   }
 }
 
@@ -4490,6 +4822,9 @@ hr {
   .gallery-area .single-gallery .gallery-img {
     height: 420px;
   }
+  .blackColor{
+    background-color: black;
+  }
 }
 
 /* line 35, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_gallery.scss */
@@ -4527,6 +4862,9 @@ hr {
   .gallery-area .single-gallery .thumb-content-box .thumb-content h3 {
     font-size: 25px;
   }
+  .blackColor{
+    background-color: black;
+  }
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -4534,12 +4872,18 @@ hr {
   .gallery-area .single-gallery .thumb-content-box .thumb-content h3 {
     font-size: 32px;
   }
+  .blackColor{
+    background-color: black;
+  }
 }
 
 @media (max-width: 575px) {
   /* line 50, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_gallery.scss */
   .gallery-area .single-gallery .thumb-content-box .thumb-content h3 {
     font-size: 32px;
+  }
+  .blackColor{
+    background-color: black;
   }
 }
 
@@ -4555,6 +4899,9 @@ hr {
   /* line 66, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_gallery.scss */
   .gallery-area .single-gallery .thumb-content-box .thumb-content p {
     padding: 0 18px;
+  }
+  .blackColor{
+    background-color: black;
   }
 }
 
@@ -4585,6 +4932,9 @@ hr {
   .wantToWork-area .wantToWork-caption h2 {
     font-size: 30px;
   }
+  .blackColor{
+    background-color: black;
+  }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
@@ -4593,6 +4943,9 @@ hr {
     font-size: 35px;
     margin-bottom: 20px;
   }
+  .blackColor{
+    background-color: black;
+  }
 }
 
 @media (max-width: 575px) {
@@ -4600,6 +4953,9 @@ hr {
   .wantToWork-area .wantToWork-caption h2 {
     font-size: 25px;
     margin-bottom: 20px;
+  }
+  .blackColor{
+    background-color: black;
   }
 }
 
@@ -4614,6 +4970,9 @@ hr {
   .wantToWork-area .wantToWork-btn {
     float: left;
     margin-top: 30px;
+  }
+  .blackColor{
+    background-color: black;
   }
 }
 
@@ -4631,6 +4990,9 @@ hr {
     float: left;
     margin-top: 30px;
   }
+  .blackColor{
+    background-color: black;
+  }
 }
 
 @media (max-width: 575px) {
@@ -4638,6 +5000,9 @@ hr {
   .sm-left {
     float: left;
     margin-top: 30px;
+  }
+  .blackColor{
+    background-color: black;
   }
 }
 
@@ -4659,12 +5024,18 @@ hr {
   .double-btn.f-right {
     float: left;
   }
+  .blackColor{
+    background-color: black;
+  }
 }
 
 @media (max-width: 575px) {
   /* line 65, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_wantTowork.scss */
   .double-btn.f-right {
     float: left;
+  }
+  .blackColor{
+    background-color: black;
   }
 }
 
@@ -4679,6 +5050,9 @@ hr {
   /* line 4, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_contact_form.scss */
   .contact-form .form-wrapper {
     padding: 25px;
+  }
+  .blackColor{
+    background-color: black;
   }
 }
 
@@ -4751,6 +5125,9 @@ hr {
   .contact-form textarea {
     padding: 30px 42px;
   }
+  .blackColor{
+    background-color: black;
+  }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
@@ -4758,12 +5135,18 @@ hr {
   .contact-form textarea {
     padding: 30px 42px;
   }
+  .blackColor{
+    background-color: black;
+  }
 }
 
 @media (max-width: 575px) {
   /* line 51, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_contact_form.scss */
   .contact-form textarea {
     padding: 30px 42px;
+  }
+  .blackColor{
+    background-color: black;
   }
 }
 
@@ -4884,6 +5267,9 @@ hr {
   .contact-form .single-gallery .gallery-img {
     height: 380px;
   }
+  .blackColor{
+    background-color: black;
+  }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
@@ -4891,12 +5277,18 @@ hr {
   .contact-form .single-gallery .gallery-img {
     height: 380px;
   }
+  .blackColor{
+    background-color: black;
+  }
 }
 
 @media (max-width: 575px) {
   /* line 151, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_contact_form.scss */
   .contact-form .single-gallery .gallery-img {
     height: 380px;
+  }
+  .blackColor{
+    background-color: black;
   }
 }
 
@@ -4939,6 +5331,9 @@ hr {
   .contact-form .single-gallery .thumb-content-box .thumb-content h3 > a {
     font-size: 32px;
   }
+  .blackColor{
+    background-color: black;
+  }
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -4946,12 +5341,18 @@ hr {
   .contact-form .single-gallery .thumb-content-box .thumb-content h3 > a {
     font-size: 32px;
   }
+  .blackColor{
+    background-color: black;
+  }
 }
 
 @media (max-width: 575px) {
   /* line 183, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_contact_form.scss */
   .contact-form .single-gallery .thumb-content-box .thumb-content h3 > a {
     font-size: 32px;
+  }
+  .blackColor{
+    background-color: black;
   }
 }
 
@@ -5007,6 +5408,9 @@ hr {
     width: 40px;
     right: 40px;
   }
+  .blackColor{
+    background-color: black;
+  }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
@@ -5017,6 +5421,9 @@ hr {
     width: 40px;
     right: 40px;
   }
+  .blackColor{
+    background-color: black;
+  }
 }
 
 @media (max-width: 575px) {
@@ -5026,6 +5433,9 @@ hr {
     height: 40px;
     width: 40px;
     right: 40px;
+  }
+  .blackColor{
+    background-color: black;
   }
 }
 
@@ -5069,12 +5479,18 @@ hr {
   .single-projects .singel-details h3 {
     font-size: 15px;
   }
+  .blackColor{
+    background-color: black;
+  }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   /* line 9, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_extraPage.scss */
   .single-projects .singel-details h3 {
     font-size: 14px;
+  }
+  .blackColor{
+    background-color: black;
   }
 }
 
@@ -5098,12 +5514,18 @@ hr {
   .experience.experience2 span {
     font-size: 32px;
   }
+  .blackColor{
+    background-color: black;
+  }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   /* line 33, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_extraPage.scss */
   .experience.experience2 {
     padding-bottom: 30px;
+  }
+  .blackColor{
+    background-color: black;
   }
 }
 
@@ -5112,12 +5534,18 @@ hr {
   .experience.experience2 {
     padding-bottom: 30px;
   }
+  .blackColor{
+    background-color: black;
+  }
 }
 
 @media (max-width: 575px) {
   /* line 33, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_extraPage.scss */
   .experience.experience2 {
     padding-bottom: 30px;
+  }
+  .blackColor{
+    background-color: black;
   }
 }
 
@@ -5135,12 +5563,18 @@ hr {
   .categories-area .single-cat {
     padding: 30px 22px;
   }
+  .blackColor{
+    background-color: black;
+  }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   /* line 2, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_services_section.scss */
   .categories-area .single-cat {
     padding: 30px 18px;
+  }
+  .blackColor{
+    background-color: black;
   }
 }
 
@@ -5168,12 +5602,18 @@ hr {
   .categories-area .single-cat .cat-cap h5 > a {
     font-size: 21px;
   }
+  .blackColor{
+    background-color: black;
+  }
 }
 
 @media (max-width: 575px) {
   /* line 19, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_services_section.scss */
   .categories-area .single-cat .cat-cap h5 > a {
     font-size: 23px;
+  }
+  .blackColor{
+    background-color: black;
   }
 }
 
@@ -5192,6 +5632,9 @@ hr {
   /* line 34, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_services_section.scss */
   .categories-area .single-cat .cat-cap p {
     font-size: 15px;
+  }
+  .blackColor{
+    background-color: black;
   }
 }
 
@@ -5221,12 +5664,18 @@ hr {
   .service-area {
     padding-top: 100px;
   }
+  .blackColor{
+    background-color: black;
+  }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   /* line 66, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_services_section.scss */
   .service-area {
     padding-top: 100px;
+  }
+  .blackColor{
+    background-color: black;
   }
 }
 
@@ -5235,12 +5684,18 @@ hr {
   .service-area {
     padding-top: 150px;
   }
+  .blackColor{
+    background-color: black;
+  }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   /* line 77, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_services_section.scss */
   .service-area .single-main {
     margin-bottom: 30px;
+  }
+  .blackColor{
+    background-color: black;
   }
 }
 
@@ -5249,12 +5704,18 @@ hr {
   .service-area .single-main {
     margin-bottom: 30px;
   }
+  .blackColor{
+    background-color: black;
+  }
 }
 
 @media (max-width: 575px) {
   /* line 77, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_services_section.scss */
   .service-area .single-main {
     margin-bottom: 30px;
+  }
+  .blackColor{
+    background-color: black;
   }
 }
 
@@ -5281,6 +5742,9 @@ hr {
   /* line 89, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_services_section.scss */
   .service-area .single-main .single-wrapper .single-services {
     padding: 16px 40px;
+  }
+  .blackColor{
+    background-color: black;
   }
 }
 
@@ -5389,12 +5853,18 @@ hr {
     height: 373px;
     padding: 74px 60px 20px 60px;
   }
+  .blackColor{
+    background-color: black;
+  }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   /* line 3, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_testimonial.scss */
   .testimonial-area .testimonial-caption {
     height: 426px;
+  }
+  .blackColor{
+    background-color: black;
   }
 }
 
@@ -5404,6 +5874,9 @@ hr {
     height: 426px;
     padding: 66px 60px 20px 60px;
   }
+  .blackColor{
+    background-color: black;
+  }
 }
 
 @media (max-width: 575px) {
@@ -5411,6 +5884,9 @@ hr {
   .testimonial-area .testimonial-caption {
     height: 343px;
     padding: 82px 18px 20px 18px;
+  }
+  .blackColor{
+    background-color: black;
   }
 }
 
@@ -5428,6 +5904,9 @@ hr {
   /* line 23, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_testimonial.scss */
   .testimonial-area .testimonial-caption p {
     font-size: 24px;
+  }
+  .blackColor{
+    background-color: black;
   }
 }
 
@@ -5507,6 +5986,9 @@ hr {
   /* line 4, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_footer.scss */
   .footer-area .footer-pera p {
     padding-right: 0px;
+  }
+  .blackColor{
+    background-color: black;
   }
 }
 
@@ -5624,6 +6106,9 @@ hr {
     float: left;
     padding-top: 10px;
   }
+  .blackColor{
+    background-color: black;
+  }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
@@ -5632,6 +6117,9 @@ hr {
     float: left;
     padding-top: 10px;
   }
+  .blackColor{
+    background-color: black;
+  }
 }
 
 @media (max-width: 575px) {
@@ -5639,6 +6127,9 @@ hr {
   .footer-social {
     float: left;
     padding-top: 10px;
+  }
+  .blackColor{
+    background-color: black;
   }
 }
 
@@ -5715,12 +6206,18 @@ hr {
   .home-blog-area .home-blog-single .blog-img-cap .blog-cap {
     padding: 37px 23px 37px 20px;
   }
+  .blackColor{
+    background-color: black;
+  }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   /* line 16, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_blog_page.scss */
   .home-blog-area .home-blog-single .blog-img-cap .blog-cap {
     padding: 19px 8px 17px 18px;
+  }
+  .blackColor{
+    background-color: black;
   }
 }
 
@@ -5729,12 +6226,18 @@ hr {
   .home-blog-area .home-blog-single .blog-img-cap .blog-cap {
     padding: 19px 8px 17px 18px;
   }
+  .blackColor{
+    background-color: black;
+  }
 }
 
 @media (max-width: 575px) {
   /* line 16, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_blog_page.scss */
   .home-blog-area .home-blog-single .blog-img-cap .blog-cap {
     padding: 19px 8px 17px 18px;
+  }
+  .blackColor{
+    background-color: black;
   }
 }
 
