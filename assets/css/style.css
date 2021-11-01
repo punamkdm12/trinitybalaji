@@ -63,11 +63,13 @@
   text-align: center;
   height: 80%;
   font-size: 2.0rem;
+  color: white;
 
 }
 .btn-primary1:hover{
   background-color:#4e4699;
   border-color: #8064A2;
+  color: white;
 }
 
 .btn-success-custom{
@@ -240,7 +242,9 @@
 .about-low-area .about-right-cap {
   padding-top: 5px;
 }
-
+.white-text{
+  color: white;
+}
 .custom-link{
   color:#000;
 }
