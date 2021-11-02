@@ -35,33 +35,30 @@
             $('#loader').load("loader.html");
 
         });
-        $(document).ready(function(){
-var mokData = [
-{ category: "Material", id: '1', name: 'Brakedown of machine' },
-{ category: "Material", id: '2', name: 'Brakedown of machine' },
-{ category: "Tool", id: '3', name: 'Brakedown of machine' },
-{ category: "Tool", id: '4', name: 'Brakedown of line' },
-{ category: "Tool", id: '5', name: 'Brakedown of machine' },
-{ category: "Tool", id: '6', name: 'Brakedown of line' },
-{ category: "Tool", id: '7', name: 'Brakedown of machine' },
-{ category: "Tool", id: '8', name: 'Brakedown of line' }
-];
-$.each(mokData, function (i) {
-    var templateString ='<div class="card border-0"><div class="card-body"><h2 class="card-title display-6  vertical-text-center">' + mokData[i].category + ' </h2><p >'+mokData[i].name+'</p></div></div>';
-    
-    
-    $('#test12').append(templateString);
-})
 
-$("#test12").on("click", function () {
-    alert("test");
-});
-});
-    </script>
+        var titlearray =["css","js","python","java","android","jquery","ruby"];
+var descriptionarray =["css style","js program","python code","java objects","android program","jquery objects","ruby code"];
+
+var dynamic = document.querySelector('.container-fluid');  
+for (var i = 0; i < titlearray.length; i++) {
+  var fetch = document.querySelector('.container-fluid').innerHTML;  
+  dynamic.innerHTML = `<div id="cards${i}" class="boxes">
+      <div class="box-content">
+        <h2>${titlearray[i]}</h2>
+        <p>
+          ${descriptionarray[i]}
+        </p>
+        <a class="showmore" href="#">ReadMore</a>
+      </div>
+    </div>` + fetch ; 
+    } 
+
+
+</script>
 </head>
 
 <body>
-  <div id="loader"></div>
+ 
     <div id="header"></div>
     <main>
        
@@ -96,9 +93,9 @@ $("#test12").on("click", function () {
 
         
             
-            <div id="test12"></div>
-                         
-        
+        <div class="container-fluid">
+    
+        </div>
 
 
 

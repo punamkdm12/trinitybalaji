@@ -22,21 +22,21 @@
     <link rel="stylesheet" href="assets/css/slick.css">
     <link rel="stylesheet" href="assets/css/nice-select.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+ 
+    <script>
+        $(function(){
+            $('#header').load("header.html");
+            $('#footer').load("footer.html");
+            $('#loader').load("loader.html");
+            
+
+        });
+    </script>
 </head>
-<!--? Preloader Start -->
-<div id="preloader-active">
-    <div class="preloader d-flex align-items-center justify-content-center">
-        <div class="preloader-inner position-relative">
-            <div class="preloader-circle"></div>
-            <div class="preloader-img pere-text">
-                <img src="assets/img/logo/loder.png" alt="">
-            </div>
-        </div>
-    </div>
-</div>
-<!-- Preloader Start -->
-<header>
-    <!-- Header Start -->
+<div id="loader"></div>
+<!-- <header>
     <div class="header-area">
         <div class="main-header ">
             <div class="header-top d-none d-lg-block">
@@ -59,7 +59,6 @@
             <div class="header-bottom  header-sticky">
                 <div class="container">
                     <div class="row align-items-center">
-                        <!-- Logo -->
                         <div class="col-xl-2 col-lg-2">
                             <div class="logo">
                                 <a href="index.html"><img class="trinity_logo" src="assets/img/logo/trinity_logo.png" alt=""></a>
@@ -67,7 +66,6 @@
                         </div>
                         <div class="col-xl-9 col-lg-8">
                             <div class="menu-wrapper  d-flex align-items-center">
-                                <!-- Main-menu -->
                                 <div class="main-menu d-none d-lg-block">
                                     <nav>
                                         <ul id="navigation">
@@ -96,7 +94,6 @@
                             </div>
                         </div>
                         <div class="col-xl-1 col-lg-2">
-                            <!-- Search Box -->
                             <div class="search d-none d-lg-block">
                                 <ul>
                                     <li>
@@ -107,7 +104,6 @@
                                 </ul>
                             </div>
                         </div>
-                        <!-- Mobile Menu -->
                         <div class="col-12">
                             <div class="mobile_menu d-block d-lg-none"></div>
                         </div>
@@ -116,8 +112,8 @@
             </div>
         </div>
     </div>
-    <!-- Header End -->
-</header>
+</header> -->
+<div id="header"></div>
 <main>
     <!--? Hero Start -->
     <div class="slider-area2 section-bg2" data-background="assets/img/hero/hero5.png">

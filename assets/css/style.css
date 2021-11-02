@@ -245,6 +245,9 @@
 .white-text{
   color: white;
 }
+.none{
+  display: none;
+}
 .custom-link{
   color:#000;
 }
