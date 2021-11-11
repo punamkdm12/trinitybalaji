@@ -104,6 +104,9 @@
 .orangetextcolor{
   color: #e17c27;
 }
+.lightorangeicon{
+  color:#e17c27;
+}
 .orange-btn{
   background-color: #e17c27;
   color: white;
@@ -116,7 +119,9 @@
   align-items: center;
   text-align: center;
 }
-
+.card-rounded{
+  border-radius: 10%;
+}
 .purple-btn{
   background-color: #4054B2;
   color: white;
@@ -204,6 +209,11 @@
   clip-path:polygon(0 0,100% 0,100% calc(100% - 200px),calc(100% - 30%) 100%, 0 100%); 
 
 }
+.myform .required:after {
+  content: " *";
+    color: red;
+    font-weight: 100;
+}
 .vertical-text-center{
   display: grid;
   grid-template-columns: auto 1fr;
@@ -226,6 +236,19 @@
   width: 45px;
   height: 45px;
   background-color: orange;
+  text-align: center;
+  display: inline-block;
+    transition:0.5s;
+}
+
+.iconWrapper-blue{
+  font-size:1.3em;
+  border-radius: 50%;
+  color: white;
+  line-height: 2em;
+  width: 45px;
+  height: 45px;
+  background-color: #4f527e;
   text-align: center;
   display: inline-block;
     transition:0.5s;
