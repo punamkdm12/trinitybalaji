@@ -291,45 +291,35 @@
 .font-25{
   font-size: 22px;
 }
-/*-------------Color include--------------*/
-/*-- Background color---*/
-/* line 60, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_color.scss */
+
 .gray-bg {
   background: #f7f7fd;
 }
 
-/* line 63, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_color.scss */
 .white-bg {
   background: #ffffff;
 }
 
-/* line 66, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_color.scss */
 .black-bg {
   background: #16161a;
 }
 
-/* line 69, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_color.scss */
 .theme-bg {
   background: #FF3514;
 }
 
-/* line 72, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_color.scss */
 .brand-bg {
   background: #f1f4fa;
 }
 
-/* line 75, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_color.scss */
 .testimonial-bg {
   background: #f9fafc;
 }
 
-/*--- color------*/
-/* line 81, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_color.scss */
 .white-color {
   color: #ffffff;
 }
 
-/* line 84, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_color.scss */
 .black-color {
   color: #16161a;
 }
@@ -9487,3 +9477,15 @@ del {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+  .section-padding40{
+    padding: 0px;
+  }
+}
+
+
