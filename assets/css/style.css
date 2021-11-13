@@ -9501,7 +9501,8 @@ del {
     font-size: 25px;
   }
   .img{
-    max-width: 100%;
+    max-width: 50%;
+    height:auto;
   }
   .font-20{
     font-size: 20px;
@@ -9510,7 +9511,12 @@ del {
   .ml-190 {
     margin-left: 120px;
   }
- 
+  html, body {
+    overflow-x: hidden;
+  }
+ body {
+    width:100%;
+  }
 }
 
 
