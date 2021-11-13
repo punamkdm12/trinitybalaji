@@ -4662,7 +4662,7 @@ hr {
 
 /* line 74, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_about.scss */
 .about-low-area .about-right-cap .about-right-img img {
-  width: 100%;
+  max-width: 100%;
   margin-bottom: 15px;
 }
 
@@ -5390,7 +5390,7 @@ hr {
 
 /* line 224, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_contact_form.scss */
 .contact-form .single-mam-img img {
-  width: 100%;
+  max-width: 100%;
 }
 
 /* line 234, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_contact_form.scss */
@@ -9507,6 +9507,7 @@ del {
   .ml-190 {
     margin-left: 120px;
   }
+ 
 }
 
 
