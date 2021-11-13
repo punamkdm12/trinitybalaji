@@ -438,6 +438,7 @@ body {
   font-weight: normal;
   font-style: normal;
   font-size: 16px;
+  width: 100%;
 }
 
 /* line 10, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_common.scss */
@@ -9511,12 +9512,17 @@ del {
   .ml-190 {
     margin-left: 120px;
   }
-  html, body {
-    overflow-x: hidden;
-  }
- body {
-    width:100%;
-  }
+  *{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -msbox-sizing: border-box;
+}
+body{
+   overflow-x: hidden;
+}
+img{
+   max-width:100%;
+}
 }
 
 
@@ -9524,5 +9530,9 @@ del {
   .p-zero{
     height: 570px;
   }
+
+ img{
+   width: 90%;
+ }
  
 }
