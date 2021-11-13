@@ -90,7 +90,7 @@
   padding-top: 5px;
 }
 .txtbox {
-  font-size: 18pt;
+  font-size: 12pt;
   height: 38px;
 }
 .orangeiconcolor {
@@ -3532,15 +3532,23 @@ hr {
   }
   .section-title h2 {
     text-align: left;
-    font-size: 23px;
+    font-size: 20px;
+    line-height: normal;
   }
   .section-title h1 {
-    font-size: 35px;
+    font-size: 25px;
     display: block;
     color: #072366;
     font-weight: 800;
     text-transform: normal;
     line-height: 71px;
+  }
+  .section-padding-5{
+    padding-top: 15%;
+  }
+  .mb-35{
+    margin-top: 1%;
+    margin-bottom: 0%;
   }
 }
 
@@ -4526,7 +4534,7 @@ hr {
   font-size: 16px;
   color: #64676c;
   line-height: 1.6;
-  margin-bottom: 58px;
+  margin-bottom: 11px;
   padding-right: 50px;
 }
 
@@ -4676,7 +4684,7 @@ hr {
     left: 0;
     width: 128px;
     height: 145px;
-    padding: 8px 10px;
+    padding: 1px 10px;
   }
   .blackColor{
     background-color: black;
@@ -9488,4 +9496,23 @@ del {
   }
 }
 
+@media (max-width: 575px) {
+  .h1-sm-text{
+    font-size: 25px;
+  }
+  .font-20{
+    font-size: 20px;
+    line-height: normal;
+  }
+  .ml-190 {
+    margin-left: 120px;
+  }
+}
 
+
+@media only screen and (min-width: 360px) and (max-width: 640px) {
+  .p-zero{
+    height: 570px;
+  }
+ 
+}
