@@ -93,7 +93,15 @@ text-align: right;
   text-align: center;
   color: white;
 }
+.b{
+  font-weight: bold;
+}
+.display-01{
 
+    font-size: 6rem;
+    font-weight: 300;
+    line-height: 1.2;
+}
 .contact-us-custom{
   font-size: 15px;
   padding-top: 5px;
@@ -246,6 +254,9 @@ text-align: right;
   border: 0;
   padding: 10px 0 10px 0;
   font-size:28px;
+}
+.b{
+  font-weight: bold;
 }
 
 .card-custom-xs-3{
@@ -9576,6 +9587,9 @@ del {
   .pbc{
     padding-bottom: 25px;
   }
+  .b{
+    font-weight: bold;
+  }
   .cut-corner {
     padding-top: 65px;
     margin: 0px;
@@ -9787,6 +9801,10 @@ color: white;
   padding: 10px 0 10px 0;
   font-size:20px;
 }
+.font-35{
+  font-size: 35px;
+
+}
 
 }
 
@@ -9801,7 +9819,13 @@ color: white;
   .pbc-25{
     padding-bottom: 25px;
   }
- 
+  .font-35{
+    font-size: 35px;
+
+  }
+  .b{
+    font-weight: bold;
+  }
   .card-custom-xs{
     background-color: #e17c27;
     color: #E2E2E2;
@@ -9933,5 +9957,8 @@ color: white;
     border: 2px solid #f7685b;
     background: linear-gradient(to bottom right,transparent 0%,#f7685b 23%) bottom right/100% 100% no-repeat;
     clip-path: polygon(0 0,100% 0,102% calc(100% - 140px),calc(99% - 32%) 109%, 0 100%);
+}
+.b{
+  font-weight: bold;
 }
 }
