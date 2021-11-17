@@ -218,6 +218,10 @@ text-align: right;
   clip-path:polygon(0 0,100% 0,100% calc(100% - 200px),calc(100% - 30%) 100%, 0 100%); 
 
 }
+
+.pc-5{
+  padding: 5px;
+}
 .card-custom-xs{
   background-color: #e17c27;
   color: #E2E2E2;
@@ -9569,6 +9573,19 @@ del {
   .h1-sm-text{
     font-size: 25px;
   }
+  .pbc{
+    padding-bottom: 25px;
+  }
+  .cut-corner {
+    padding-top: 65px;
+    margin: 0px;
+    height: 107px;
+    width: 100%;
+    fill: #f7685b;
+    border: 2px solid #f7685b;
+    background: linear-gradient(to bottom right,transparent 0%,#f7685b 28%) bottom right/100% 100% no-repeat;
+    clip-path: polygon(0 0,100% 0,100% calc(170% - 143px),calc(117% - 30%) 100%, 0 100%);
+}
   .dark-blue-btn {
     background-color: #1f31ae;
     color: white;
@@ -9704,6 +9721,7 @@ color: white;
   font-weight: bold;
   text-align: center;
   border: 0;
+  font-size: 25px;
 }
 .card-custom-xs-3{
   padding: 15px 0px 15px 0px;
@@ -9780,6 +9798,10 @@ color: white;
     text-align: center;
     border: 0;
   }
+  .pbc-25{
+    padding-bottom: 25px;
+  }
+ 
   .card-custom-xs{
     background-color: #e17c27;
     color: #E2E2E2;
@@ -9889,7 +9911,27 @@ color: white;
   align-items: center;
   text-align: center;
 }
+.cut-corner {
+  padding-top: 65px;
+  margin: 0px;
+  height: 107px;
+  width: 100%;
+  fill: #f7685b;
+  border: 2px solid #f7685b;
+  background: linear-gradient(to bottom right,transparent 0%,#f7685b 28%) bottom right/100% 100% no-repeat;
+  clip-path: polygon(0 0,100% 0,100% calc(170% - 143px),calc(117% - 30%) 100%, 0 100%);
+}
 
 
-
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .cut-corner {
+    padding-top: 147px;
+    margin: 21px;
+    height: 231px;
+    fill: #f7685b;
+    border: 2px solid #f7685b;
+    background: linear-gradient(to bottom right,transparent 0%,#f7685b 23%) bottom right/100% 100% no-repeat;
+    clip-path: polygon(0 0,100% 0,102% calc(100% - 140px),calc(99% - 32%) 109%, 0 100%);
+}
 }
