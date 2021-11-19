@@ -200,6 +200,9 @@ text-align: right;
 .darkbluetextcolor{
   color: #1f31ae;
 }
+.darkbluecolor{
+  color:#072366;
+}
 .darkbluebgcolor{
   background-color: #1f31ae;
   color: #E2E2E2;
@@ -264,7 +267,6 @@ text-align: right;
 }
 
 .card-custom-xs-3{
-padding: 25px 0px 25px 0px;
 text-align: center;
 text-align: center;
   border: 0;
@@ -274,6 +276,9 @@ text-align: center;
   content: " *";
     color: red;
     font-weight: 100;
+}
+.line-1point2{
+  line-height: 1.2;
 }
 .vertical-text-center{
   display: grid;
@@ -630,9 +635,7 @@ a {
 }
 
 /* line 75, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_common.scss */
-a:hover {
-  color: #fff;
-}
+
 
 /* line 78, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_common.scss */
 a:focus,
@@ -5038,7 +5041,7 @@ hr {
 
 /* line 80, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_gallery.scss */
 .gallery-area .single-gallery .thumb-content-box .thumb-content a:hover {
-  color: #fff;
+ 
   letter-spacing: 1px;
 }
 
