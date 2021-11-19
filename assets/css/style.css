@@ -37,6 +37,9 @@
 .gray-bg {
   background: #F5F9FB;
 }
+.font-40-lg{
+  font-size: 40px;
+}
 .trinity_logo {
   max-width: 100%;
   max-height: 100%;
@@ -110,6 +113,7 @@ text-align: right;
   font-size: 12pt;
   height: 38px;
 }
+
 .orangeiconcolor {
   color:#ff4935;
 }
@@ -253,7 +257,7 @@ text-align: right;
   font-weight: bold;
   border: 0;
   padding: 10px 0 10px 0;
-  font-size:28px;
+  font-size:23px;
 }
 .b{
   font-weight: bold;
@@ -264,6 +268,7 @@ padding: 25px 0px 25px 0px;
 text-align: center;
 text-align: center;
   border: 0;
+  padding: 35px;
 }
 .myform .required:after {
   content: " *";
@@ -324,9 +329,12 @@ text-align: center;
 .white-text{
   color: white;
 }
+.p-zero{
+  height: 100%;
+}
 .basic-step{
 
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 700;
     text-align: center;
 
@@ -378,7 +386,14 @@ text-align: center;
 .testimonial-bg {
   background: #f9fafc;
 }
-
+section:nth-child(odd) {
+  background: #d4d6d5;
+  padding: 5px;
+}
+section:nth-child(even){
+  padding: 5px;
+  border: 1px;
+}
 .white-color {
   color: #ffffff;
 }
@@ -3555,7 +3570,7 @@ hr {
   line-height: 1.4;
 }
 .section-title h1 {
-  font-size: 45px;
+  font-size: 30px;
   display: block;
   color: #072366;
   font-weight: 800;
@@ -3575,7 +3590,7 @@ hr {
     font-size: 25px;
   }
   .section-title h1 {
-    font-size: 45px;
+    font-size: 40px;
     display: block;
     color: #072366;
     font-weight: 800;
@@ -4197,13 +4212,13 @@ hr {
 
 /* line 1, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_h1-hero.scss */
 .slider-height {
-  height: 600px;
+  height: auto;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   /* line 1, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_h1-hero.scss */
   .slider-height {
-    height: 600px;
+    height: 500px;
   }
   .blackColor{
     background-color: black;
@@ -4213,7 +4228,7 @@ hr {
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   /* line 1, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_h1-hero.scss */
   .slider-height {
-    height: 500px;
+    height: auto;
   }
   .blackColor{
     background-color: black;
@@ -4223,7 +4238,7 @@ hr {
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   /* line 1, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_h1-hero.scss */
   .slider-height {
-    height: 500px;
+    height: auto;
   }
   .blackColor{
     background-color: black;
@@ -4278,7 +4293,6 @@ hr {
 
 /* line 37, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_h1-hero.scss */
 .slider-area {
-  margin-top: -1px;
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
@@ -4299,9 +4313,8 @@ hr {
 
 /* line 63, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_h1-hero.scss */
 .slider-area .hero__caption h1 {
-  font-size: 70px;
+  font-size: 50px;
   font-weight: 700;
-  margin-bottom: 14px;
   color: #ec3b1f;
   line-height: 1.2;
   margin-bottom: 29px;
@@ -4311,7 +4324,7 @@ hr {
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   /* line 63, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_h1-hero.scss */
   .slider-area .hero__caption h1 {
-    font-size: 70px;
+    font-size: 50px;
     line-height: 1.2;
   }
   .blackColor{
@@ -4400,7 +4413,7 @@ hr {
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   /* line 106, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_h1-hero.scss */
-  .slider-area .video-icon {
+  .video-icon {
     right: 48px;
   }
   .blackColor{
@@ -9938,7 +9951,7 @@ px
     text-align: center;
 }
   .p-zero{
-    height: 570px;
+    height: 600px;
   }
   .font-lg{
     font-size: larger;
@@ -10031,4 +10044,11 @@ px
 .b{
   font-weight: bold;
 }
+}
+
+
+@media only screen and (min-width: 540px) and (max-width: 720px) {
+  .p-zero{
+    height: 730px;
+  }
 }
