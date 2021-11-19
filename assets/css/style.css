@@ -386,11 +386,11 @@ text-align: center;
 .testimonial-bg {
   background: #f9fafc;
 }
-section:nth-child(odd) {
-  background: #d4d6d5;
+section:nth-child(even) {
+  background: #f0eded;
   padding: 5px;
 }
-section:nth-child(even){
+section:nth-child(odd){
   padding: 5px;
   border: 1px;
 }
@@ -3552,6 +3552,14 @@ hr {
   text-transform: normal;
   line-height: 1.4;
 }
+.section-tittle h3 {
+  font-size: 20px;
+  display: block;
+  color: #072366;
+  font-weight: 800;
+  text-transform: normal;
+  line-height: 1.4;
+}
 .section-title h2 {
   font-size: 25px;
   display: block;
@@ -3591,6 +3599,14 @@ hr {
   }
   .section-title h1 {
     font-size: 40px;
+    display: block;
+    color: #072366;
+    font-weight: 800;
+    text-transform: normal;
+    line-height: 62px;
+  }
+  .section-tittle h3 {
+    font-size: 20px;
     display: block;
     color: #072366;
     font-weight: 800;
