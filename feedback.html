@@ -56,6 +56,76 @@
             });
         });
 
+        (function () {
+            'use strict';
+            window.addEventListener('load', function () {
+                // Fetch all the forms we want to apply custom Bootstrap validation styles to
+                var forms = document.getElementsByClassName('needs-validation');
+                var tel = document.querySelector('input[type="tel"]');
+                // check match
+
+                // Loop over them and prevent submission
+                var validation = Array.prototype.filter.call(forms, function (form) {
+                    form.addEventListener('submit', function (event) {
+                        if (form.checkValidity() === false) {
+                            event.preventDefault();
+                            event.stopPropagation();
+                        }
+                        var email = $("#email").val();
+                        var confirmemail = $("#confirm_email").val();
+                        if (email !== confirmemail) {
+                            form.classList.add('was-validated');
+                            $("#validate").html("Email Should Match");
+                            $("#validate").addClass("error");
+                            $("#confirm_email").addClass("error-text");
+                            event.preventDefault();
+                            event.stopPropagation();
+                        }
+                        else {
+                            $("#validate").removeClass("error");
+                            form.classList.add('was-validated');
+                            $("#confirm_email").removeClass("error-text");
+                            $("#validate").html("Looks Good!");
+                        }
+
+                    }, false);
+                });
+            }, false);
+        })();
+
+        (function () {
+            'use strict';
+            window.addEventListener('load', function () {
+                // Fetch all the forms we want to apply custom Bootstrap validation styles to
+                var forms = document.getElementsByClassName('needs-validation');
+                var tel = document.querySelector('input[type="tel"]');
+
+                // Loop over them and prevent submission
+                var validation = Array.prototype.filter.call(forms, function (form) {
+                    form.addEventListener('submit', function (event) {
+                        if (form.checkValidity() === false) {
+                            event.preventDefault();
+                            event.stopPropagation();
+                        }
+                        if (!check(tel.value)) {
+                            event.preventDefault();
+                            event.stopPropagation();
+                            alert('error on phone')
+                        }
+                        form.classList.add('was-validated');
+                    }, false);
+                });
+            }, false);
+
+
+        })();
+
+        function check(input) {
+            if (input.length != 10)
+                return false;
+            return true;
+        }
+
     </script>
 </head>
 
@@ -160,8 +230,8 @@
         <section>
             <div class="container contact-us-custom">
                 <div class="row">
-                    <div class="col-md-10 offset-4">
-                        <img src="assets/img/trinity/Pic41.png" alt="" class="img-fluid">
+                    <div class="col-md-12">
+                        <img src="assets/img/trinity/Pic41.png" alt="" class="mx-auto d-block">
                     </div>
                 </div>
                 <div class="row">
@@ -212,8 +282,14 @@
                             </div>
                             <div class="form-group">
                                 <label for="feedback_satisfy_id">Are you satisfied with our services? *</label>
-                                <input type="text" name="feedback_satisfy_name" id="feedback_satisfy_id" class="form-control txtbox"
-                                    required>
+                                <div class="form-check">
+                                    <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1" checked>
+                                    <label class="form-check-label" for="radio1"> &#160;Yes</label>
+                                  </div>
+                                  <div class="form-check">
+                                    <input type="radio" class="form-check-input" id="radio2" name="optradio" value="option2">
+                                    <label class="form-check-label" for="radio2"> &#160;No</label>
+                                  </div>
                                 <div class="invalid-feedback">The field cannot be blank</div>
                             </div>
                             
@@ -223,7 +299,9 @@
                                     required></textarea>
                             </div>
                             <br />
+                            <div class="text-center">
                             <input type="submit" value="Submit" class="blue-btn">
+                        </div>
                         </form>
                     </div>
                 </div>
