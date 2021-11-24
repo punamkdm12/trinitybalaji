@@ -162,7 +162,7 @@ text-align: right;
   text-decoration-color: #e17c27;
   text-decoration-thickness: 3px;
 }
-form-control1 {
+.form-control1 {
   display: block;
   width: 100%;
   height: calc(2.25rem + 2px);
@@ -362,6 +362,9 @@ text-align: center;
 .black-text{
   color: black;
 }
+.blue-light{
+  color:#0be1ed;
+}
 .p-zero{
   height: 100%;
 }
@@ -371,7 +374,29 @@ text-align: center;
     font-weight: 700;
     text-align: center;
 
+}/* .carousel-control-prev-icon,
+.carousel-control-next-icon {
+  
+    background-size: 100%, 100%;
+  border: 0px solid #2fd6a0;
+  background-image: none;
+  top: 30%;
 }
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 40px;
+  font-weight: 700;
+  color: #0c6b4d;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 40px;
+  font-weight: 700;
+  color: #0c6b4d;
+} */
 .none{
   display: none;
 }
@@ -5494,6 +5519,7 @@ hr {
   text-decoration: underline;
 }
 
+
 /* line 215, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_contact_form.scss */
 .contact-form .single-gallery .thumb-content-box .thumb-content a:hover {
   color: #fff;
@@ -9979,4 +10005,48 @@ px
   .p-zero{
     height: 730px;
   }
+}
+.carousel-control{ 
+  background: none; 
+  color: green;
+}
+.item.active,
+.item.active + .item,
+.item.active + .item  {
+   display: block;
+   float:left;
+   background-color: white !important;
+}  
+.carousel-indicators li {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 1px;
+  text-indent: -999px;
+  cursor: pointer;
+  background-color: rgba(0,0,0,0);
+  border: 1px solid #fff;
+  border-radius: 10px;
+  background-color: #8ebb98;
+}
+.w-100 {
+  width: 100% !important;
+  height: 35vh;
+}
+.carousel-control {
+  color: #bada55 !important;
+}
+.carousel-indicators .active {
+
+  background-color: #2fd6a0;
+}        
+.carousel-inner > .carousel-item > img { height: 360px; width: 640px; }
+.carousel-inner > .item {
+  position: relative;
+  max-height: 600px;
+}
+.carousel-caption {
+  position: absolute;
+  top: 90%;
+  transform: translateY(-50%);
 }
