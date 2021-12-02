@@ -46,6 +46,10 @@
   display: block;
   margin: 0 auto;
 }
+.postItem img {
+  height: 270;
+  width: 360px;
+}
 .title_name{
   color: #ff4935;
 }
