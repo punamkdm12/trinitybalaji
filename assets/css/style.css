@@ -3520,6 +3520,18 @@ hr {
   .blackColor{
     background-color: black;
   }
+  .container {
+    overflow-x: scroll; /* For horiz. scroll, otherwise overflow-y: scroll; */
+
+    -ms-overflow-style: none;
+    overflow: -moz-scrollbars-none;
+    scrollbar-width: none;
+}
+
+
+.container::-webkit-scrollbar {
+    display: none;  /* Safari and Chrome */
+}
 }
 
 @media (max-width: 575px) {
@@ -10006,6 +10018,21 @@ px
 .b{
   font-weight: bold;
 }
+.container {
+  overflow-x: scroll; /* For horiz. scroll, otherwise overflow-y: scroll; */
+
+  -ms-overflow-style: none;
+  overflow: -moz-scrollbars-none;
+  scrollbar-width: none;
+}
+
+
+.container::-webkit-scrollbar {
+  display: none;  /* Safari and Chrome */
+}
+.text-center-sm{
+  text-align: center;
+}
 }
 
 
@@ -10013,6 +10040,21 @@ px
   .p-zero{
     height: 730px;
   }
+  .container {
+    overflow-x: scroll; /* For horiz. scroll, otherwise overflow-y: scroll; */
+
+    -ms-overflow-style: none;
+    overflow: -moz-scrollbars-none;
+    scrollbar-width: none;
+}
+.text-center-sm{
+  text-align: center;
+}
+
+
+.container::-webkit-scrollbar {
+    display: none;  /* Safari and Chrome */
+}
 }
 .carousel-control{ 
   background: none; 
