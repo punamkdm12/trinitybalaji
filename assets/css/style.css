@@ -3528,6 +3528,10 @@ hr {
     margin-bottom: 50px;
     text-align: left !important;
   }
+  .section-tittle-sm{
+    margin-bottom: 20px;
+    text-align: left !important;
+  }
   .blackColor{
     background-color: black;
   }
