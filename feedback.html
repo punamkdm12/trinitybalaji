@@ -25,6 +25,9 @@
     <link rel="stylesheet" href="assets/css/slick.css">
     <link rel="stylesheet" href="assets/css/nice-select.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 
@@ -125,6 +128,9 @@
                 return false;
             return true;
         }
+        $(function() {
+          AOS.init();
+     });
 
     </script>
 </head>
@@ -134,98 +140,6 @@
     <div id="header"></div>
     <main>
     
-        <!-- <section>
-            <div class="container">
-                <div class="row mb-1">
-                    <div class="col-md-8 offset-md-2">Company Name *</div>
-                </div>
-                <div class="row mb-3">
-                    <div class="col-md-8 offset-md-2 custom-text"><input type="text" class="form-control"></div>
-                </div>
-                <div class="row mb-1">
-                    <div class="col-md-8 offset-md-2">Company Contact Number *
-                    </div>
-                </div>
-                <div class="row mb-3">
-                    <div class="col-md-8 offset-md-2"><input type="text" class="form-control textbox-font14"></div>
-                </div>
-                <div class="row mb-1">
-                    <div class="col-md-8 offset-md-2">Company Email Address *
-                    </div>
-                </div>
-                <div class="row mb-3">
-                    <div class="col-md-8 offset-md-2"><input type="text" class="form-control"></div>
-                </div>
-                <div class="row mb-1">
-                    <div class="col-md-8 offset-md-2">Your Name *
-                    </div>
-                </div>
-                <div class="row mb-3">
-                    <div class="col-md-8 offset-md-2"><input type="text" class="form-control"></div>
-                </div>
-                <div class="row mb-1">
-                    <div class="col-md-8 offset-md-2">Your Email Id *
-                    </div>
-                </div>
-                <div class="row mb-3">
-                    <div class="col-md-8 offset-md-2"><input type="text" class="form-control"></div>
-                </div>
-                <div class="row mb-1">
-                    <div class="col-md-8 offset-md-2">Your Contact Number *
-                    </div>
-                </div>
-                <div class="row mb-3">
-                    <div class="col-md-8 offset-md-2"><input type="text" class="form-control"></div>
-                </div>
-                <div class="row mb-1">
-                    <div class="col-md-8 offset-md-2">Your GeM Trainer Name
-                    </div>
-                </div>
-                <div class="row mb-3">
-                    <div class="col-md-8 offset-md-2"><input type="text" class="form-control"></div>
-                </div>
-                <div class="row mb-1">
-                    <div class="col-md-8 offset-md-2">Are you satisfied with our services? *
-                    </div>
-                </div>
-                <div class="row mb-3">
-                    <div class="col-md-8 offset-md-2"><input type="text" class="form-control"></div>
-                </div>
-                <div class="row mb-1">
-                    <div class="col-md-8 offset-md-2">Feedback *
-                    </div>
-                </div>
-                <div class="row mb-3">
-                    <div class="col-md-8 offset-md-2"><input type="text" class="form-control"></div>
-                </div>
-                <div class="row mb-1">
-                    <div class="col-md-8 offset-md-2">
-                        <button class="dark-blue-btn" type="submit" value="Submit">Submit</button>
-                    </div>
-                </div>
-                <form>
-                    <div class="form-group">
-                      <label for="exampleInputEmail1">Email address</label>
-                      <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
-                    </div>
-                    <div class="form-group">
-                      <label for="exampleInputPassword1">Password</label>
-                      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-                    </div>
-                    <div class="form-group">
-                      <label for="exampleInputFile">File input</label>
-                      <input type="file" id="exampleInputFile">
-                      <p class="help-block">Example block-level help text here.</p>
-                    </div>
-                    <div class="checkbox">
-                      <label>
-                        <input type="checkbox"> Check me out
-                      </label>
-                    </div>
-                    <button type="submit" class="btn btn-default">Submit</button>
-                  </form>
-            </div>
-        </section> -->
        
         <section>
             <div class="container contact-us-custom">

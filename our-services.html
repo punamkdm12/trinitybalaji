@@ -25,10 +25,16 @@
     <link rel="stylesheet" href="assets/css/slick.css">
     <link rel="stylesheet" href="assets/css/nice-select.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 
     <script>
+          $(function() {
+          AOS.init();
+     });
         $(function () {
             $('#loader').load("loader.html");
             $('#header').load("header.html");
@@ -65,21 +71,21 @@
     <main>
     
         <section>
-            <div class="section-title mb-35">
+            <div class="section-title mb-35" data-aos="fade-right" data-aos-duration="3000">
 
                 <h1 class="text-right pt-20 pr-20">Our Services</h1>
             </div>
-            <div class="cut-corner">
+            <div class="cut-corner" data-aos="zoom-in-up" data-aos-duration="2000">
                 <h1 class="text-light font-weight-bold" style="font-size:6vw;">What We Provide</h1>
             </div>
-        </section>
+        </section> 
       
 
 
 
 
 
-        <div class="row pc-5">
+        <div class="row pc-5" data-aos="fade-right" data-aos-duration="2000">
             <div class="col-md-4">
                 <div class="card border-0 text-center">
                     <div class="card-body">
@@ -115,7 +121,7 @@
             </div>
         </div>
 
-        <div class="row pc-5">
+        <div class="row pc-5" data-aos="fade-left" data-aos-duration="2000">
             <div class="col-md-4">
                 <div class="card border-0 text-center">
                     <div class="card-body">
@@ -158,7 +164,7 @@
                 <div class="col-xl-5 col-lg-5 col-md-9 offset-md-1 offset-sm-1">
                     <div class="about-right-cap">
                         <div class="about-right-img">
-                            <div class="section-title">
+                            <div class="section-title" data-aos="fade-right" data-aos-duration="2000">
 
                                 <h2 class="line-1point2">Do You Have Any Questions? Read Our FAQs Section and Feel Free to Ask</h2>
                             </div>
@@ -171,14 +177,14 @@
                         <div class="row">
                             <div class="col-xs-12 col-lg-12 col-md-10">
                                 <div class="mb-35">
-                                    <h4 id="firstToggle" onclick="showhide(mydiv)" class="mb-35 pbc-25 font-25 font-17" >How To Get Trinity Balaji Registration?  <i class="fas fa-chevron-down"></i></h4>
+                                    <h4 id="firstToggle" onclick="showhide(mydiv)" class="mb-35 pbc-25 font-25 font-17" data-aos="zoom-out-up" data-aos-duration="2000">How To Get Trinity Balaji Registration?  <i class="fas fa-chevron-down"></i></h4>
                                     <div id="firstShow" class="custom-hidden card pl-4">
                                         <p>
                                         <h4>In order to obtain Trinity Balaji Registration you must have following below documents
                                             ready:</h4>
 
                                         <ul>
-                                            <li class="m-2 font-weight-bold">PAN</li>
+                                            <li class="m-2 font-weight-bold">PAN</li>   
 
                                             <li class="m-2 font-weight-bold"> AADHAR</li>
 
@@ -195,7 +201,7 @@
                                             under the Trinity Balaji portal.</h4>
                                         </p>
                                     </div>
-                                    <h4 id="secondToggle" onclick="showhide(mydiv)" class="pbc-25 mb-35 font-25 font-17">Why Product Listing On Trinity Balaji Is
+                                    <h4 id="secondToggle" onclick="showhide(mydiv)" class="pbc-25 mb-35 font-25 font-17" data-aos="zoom-out-up" data-aos-duration="2000">Why Product Listing On Trinity Balaji Is
                                         Important?<i class="fas fa-chevron-down"></i></h4>
                                     <div id="secondShow" class="custom-hidden card p-4">
                                         <p>
@@ -211,13 +217,13 @@
                                             Our professionals can help you list your products and services properly.
                                         </p>
                                     </div>
-                                    <h4 id="thirdToggle" onclick="showhide(mydiv)" class="pbc-25 mb-35 font-25 font-17">Objective Of Trinity Balaji Registration? <i class="fas fa-chevron-down"></i></h4>
+                                    <h4 id="thirdToggle" onclick="showhide(mydiv)" class="pbc-25 mb-35 font-25 font-17"  data-aos="zoom-out-up" data-aos-duration="2000">Objective Of Trinity Balaji Registration? <i class="fas fa-chevron-down"></i></h4>
                                     <div id="thirdShow" class="custom-hidden card p-4">
                                         <p>The purpose of getting a Trinity Balaji registration is to ensure a smooth and effective
                                             procurement process for government offices requirement. Increase the
                                             transparency between private sellers and government buyers.</p>
                                     </div>
-                                    <h4 id="forthToggle" onclick="showhide(mydiv)" class="pbc-25 mb-35 display-5 font-25 font-17">Who is a Primary Buyer on Trinity Balaji? <i class="fas fa-chevron-down"></i></h4>
+                                    <h4 id="forthToggle" onclick="showhide(mydiv)" class="pbc-25 mb-35 display-5 font-25 font-17"  data-aos="zoom-out-up" data-aos-duration="2000">Who is a Primary Buyer on Trinity Balaji? <i class="fas fa-chevron-down"></i></h4>
                                     <div id="forthShow" class="custom-hidden card p-4">
 
                                         <p>
@@ -263,16 +269,16 @@
                             <!-- Section Tittle -->
                             <div class="row justify-content-center">
                                 <div class="col-xs-12 col-lg-12 col-md-10">
-                                    <div class="section-title mb-35">
+                                    <div class="section-title mb-35" data-aos="fade-left" data-aos-duration="2000">
                                         <h2 class="text-center">Turn Your Ideas into Profitable Business with Our Help
                                         </h2>
                                     </div>
                                 </div>
                             </div>
-                            <p>
+                            <p data-aos="fade-in" data-aos-duration="2000">
                                 Start working on Trinity Balaji with us. Make your products and services on Trinity Balaji. Offer your services all over the India.
                             </p>
-                            <div class="row">
+                            <div class="row" data-aos="fade-in" data-aos-duration="2000">
                                 <div class="col text-center">
                                     <button type="button" class="btn-primary1 ">CHECK NOW</button>
                                 </div>

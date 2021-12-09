@@ -25,10 +25,19 @@
     <link rel="stylesheet" href="assets/css/slick.css">
     <link rel="stylesheet" href="assets/css/nice-select.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+    
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 
     <script>
+          $(function() {
+          AOS.init();
+     });
         $(function () {
             $('#header').load("header.html");
             $('#footer').load("footer.html");
@@ -115,11 +124,10 @@
 </head>
 
 <body>
-    <div class="loader"></div>
-    <div id="header"></div>
+ 
     <main>
-
-        <section class="p-zero">
+        <div id="header"></div>
+        <section class="p-zero abs" >
             <div class="container">
                 <div class="row justify-content-between ">
                     <div class="col-xl-4 col-lg-6 col-md-6">
@@ -177,11 +185,11 @@
                     <div class="col-xl-6 col-lg-6 col-md-10">
                         <div class="about-caption">
                             <!-- Section Tittle -->
-                            <div class="section-tittle">
+                            <div class="section-tittle" data-aos="fade-left" data-aos-duration="2000">
                                 <span class="element">About Us</span>
                                 <h2>Why Choose Us As Your Trinity Balaji, Not Others?</h2>
                             </div>
-                            <p>
+                            <p data-aos="fade-in" data-aos-duration="2000">
                                 
 Trinity Balaji Services is your one stop solution for all your requirements for Government E Marketplace, through easy and hassle free process.
 Our aim is to provide low cost, high quality, inventive and quick tender’s bidding support, so that you have enough time to manage your business.  We provide end to end solutions for e-Tendering and e-Procurement.
@@ -199,13 +207,13 @@ We can help you with all your Trinity Balaji-related problems. Our Trinity Balaj
                     <div class="col-xl-6 col-lg-6 col-md-10">
                         <div class="about-caption">
                             <!-- Section Tittle -->
-                            <div class="section-tittle ">
+                            <div class="section-tittle" data-aos="fade-right" data-aos-duration="2000">
 
                                 <h2>Get The Best Consultation, Services & Training For Government e-Marketplace In All
                                     Over India.Get The Best Consultation, Services & Training For Government
                                     e-Marketplace In All Over India.</h2>
                             </div>
-                            <p>
+                            <p data-aos="fade-in" data-aos-duration="2000">
                                 Become a registered seller on Trinity Balaji portal. Get your profile completed in 24 Hours from
                                 our experts. Get your vendor assessment complete in few days only. Normally it takes 21
                                 days for vendor assessment but we can get it done just in few days only. Truest us
@@ -228,21 +236,16 @@ We can help you with all your Trinity Balaji-related problems. Our Trinity Balaj
                             <div class="about-right-img">
                                 <img src="assets/img/trinity/Pic5.png" alt="" class="img-fluid">
                             </div>
-                            <!-- <div class="img-cap">c
-                                    <span>20</span>
-                                    <p>Years of experience</p>
-                            </div> -->
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <!-- About  End-->
 
 
         <section class="about-low-area section-padding40">
             <div class="container">
-                <div class="row justify-content-center">
+                <div class="row justify-content-center"  data-aos="flip-up" data-aos-duration="2000">
                     <div class="col-xs-12 col-lg-12 col-md-10">
                         <div class="section-title mb-35">
                             <h2 class="text-center">GOVERNMENT E MARKETPLACE
@@ -250,7 +253,7 @@ We can help you with all your Trinity Balaji-related problems. Our Trinity Balaj
                         </div>
                     </div>
                 </div>
-                <div class="row justify-content-center">
+                <div class="row justify-content-center" data-aos="flip-down" data-aos-duration="2000">
                     <div class="col-xs-12 col-lg-12 col-md-10">
                         <div class="section-title mb-35">
                             <h1 class="text-center h1-sm-text">Why Trinity Registration?
@@ -263,7 +266,7 @@ We can help you with all your Trinity Balaji-related problems. Our Trinity Balaj
                         <div class="about-caption mb-50">
                             <!-- Section Tittle -->
 
-                            <p>
+                            <p data-aos="fade-in" data-aos-duration="2000">
                                 Government E- Marketplace is a platform to facilitate and enable easy online procurement
                                 of goods and services required by several government departments, associations, and
                                 public sector undertaking in India. The sole purpose of this portal to enhance
@@ -300,30 +303,12 @@ We can help you with all your Trinity Balaji-related problems. Our Trinity Balaj
 
      
         <div class="container">
-            <!-- <div class="row mb-5">
-                <div class="col-md-6 border-2">
-                    <div class="section-tittle text-center">
-                        <h2>Trending Products on Trinity Balaji</h2>
-                    </div>
-                    <h4 class="text-center">Most Popular Products On Trinity Balaji Portal These Days</h4>
-
-
-                </div>
-                <div class="col-md-6">
-                    <div class="section-tittle text-center">
-                        <h2>Trending Products on Trinity Balaji</h2>
-                    </div>
-                    <h4 class="text-center">Most Popular Services On Trinity Balaji Portal These Days</h4>
-
-
-                </div>
-            </div> -->
             <div class="row">
                 <div class="col-md-6">
-                    <div class="section-tittle text-center ">
+                    <div class="section-tittle text-center"  data-aos="fade-right" data-aos-duration="2000">
                         <h2>Trending Products on Trinity Balaji</h2>
                     </div>
-                    <h4 class="text-center">Most Popular Products On Trinity Balaji Portal These Days</h4>
+                    <h4 class="text-center"  data-aos="fade-right" data-aos-duration="2000">Most Popular Products On Trinity Balaji Portal These Days</h4>
 
                     <div id="carouselExample" class="carousel slide" data-ride="carousel">
                         <div class="carousel-inner">
@@ -394,10 +379,10 @@ We can help you with all your Trinity Balaji-related problems. Our Trinity Balaj
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <div class="section-tittle text-center">
+                    <div class="section-tittle text-center"  data-aos="fade-left" data-aos-duration="2000">
                         <h2>Trending Services on Trinity Balaji</h2>
                     </div>
-                    <h4 class="text-center">Most Popular Services On Trinity Balaji Portal These Days</h4>
+                    <h4 class="text-center"  data-aos="fade-left" data-aos-duration="2000">Most Popular Services On Trinity Balaji Portal These Days</h4>
 
 
                     <div id="carouselExample2" class="carousel slide" data-ride="carousel">
@@ -467,6 +452,33 @@ We can help you with all your Trinity Balaji-related problems. Our Trinity Balaj
                 </div>
             </div>
 </div>
+
+<section class="about-low-area section-padding40">
+    <div class="container">
+
+        <div class="row justify-content-center">
+            <div class="col-xs-12 col-lg-12 col-md-10">
+                <div class="section-title mb-35" data-aos="flip-down" data-aos-duration="2000">
+                    <h1 class="text-center">
+                        Why Trinity Balaji Portal Registration Mandatory for Sellers?    
+                    </h1>
+                </div>
+            </div>
+        </div>
+       
+        <div class="row ">
+            <div class="col-xl-12 col-lg-12 col-md-11">
+                <div class="about-caption " data-aos="fade-in" data-aos-duration="2000">
+                    <p>
+                        Government E- Marketplace is a platform to facilitate and enable easy online procurement of goods and services required by several government departments, associations, and public sector undertaking in India. There was an obsolete process of obtaining contracts from different sectors of Government through bidding process and the contractors used to get the job. But now  to enhance transparency, efficiency, and speed in public procurement services, Government of India  has started a new process through GeM Portal Registration. It offers tools of reverse e-auction, e-bidding, and demand aggregation to facilitate the government users to receive the best value of their money. 
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</section>
             <section class="about-low-area section-padding40">
                 <div class="container">
                     <div class="row align-items-center">
@@ -481,18 +493,18 @@ We can help you with all your Trinity Balaji-related problems. Our Trinity Balaj
                             <div class="about-caption mb-50">
                                 <div class="row justify-content-center">
                                     <div class="col-xs-12 col-lg-12 col-md-10">
-                                        <div class="section-title mb-35">
+                                        <div class="section-title mb-35" data-aos="fade-left" data-aos-duration="2000">
                                             <h1 class="text-center">Trinity Balaji
                                             </h1>
                                         </div>
                                     </div>
                                 </div>
-                                <p>
+                                <p  data-aos="fade-in" data-aos-duration="2000">
                                     Our team will complete your Trinity Balaji profile within 24 Hours if all documents are
                                     provided.
                                     Experts will guide you further on how to get started on the Trinity Balaji portal.
                                 </p>
-                                <div class="row">
+                                <div class="row"  data-aos="fade-in" data-aos-duration="2000">
                                     <div class="col text-center">
                                         <button type="button" class=" btn-success-custom">Call Us Now</button>
                                     </div>
@@ -558,7 +570,7 @@ We can help you with all your Trinity Balaji-related problems. Our Trinity Balaj
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-xs-12 col-lg-12 col-md-10">
-                        <div class="section-title mb-35">
+                        <div class="section-title mb-35" data-aos="flip-up" data-aos-duration="2000">
                             <h2 class="text-center">We Are The Trinity Balaji Portal Consultant For All Sellers & Buyers
 
                             </h2>
@@ -569,9 +581,7 @@ We can help you with all your Trinity Balaji-related problems. Our Trinity Balaj
                 <div class="row align-items-center">
                     <div class="col-xl-6 col-lg-6 col-md-10">
                         <div class="about-caption mb-50">
-                            <!-- Section Tittle -->
-
-                            <p>
+                            <p data-aos="fade-in" data-aos-duration="2000">
                                 We are Trinity Balaji portal consultants or you may Trinity Balaji portal seller consultant. As Trinity Balaji
                                 consultant, we provide consultancy services regarding Trinity Balaji portal. We support both buyers
                                 and sellers in getting registered on the Trinity Balaji portal. Our experts have experience in
@@ -606,85 +616,11 @@ We can help you with all your Trinity Balaji-related problems. Our Trinity Balaj
                 </div>
             </div>
         </section>
-<!-- 
- <section class="about-low-area section-padding40">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-xs-12 col-lg-12 col-md-10">
-                        <div class="section-title mb-35">
-                            <h2 class="text-center" data-animation="fadeInRight" data-delay="3s">Facing Issue With Tax
-                                Assessment On Trinity Balaji Registration?
 
-                            </h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="row justify-content-center">
-                    <div class="col-xs-12 col-lg-12 col-md-10">
-                        <div class="section-title mb-35">
-                            <h2 class="text-center" data-animation="fadeInLeft" data-delay="3s">Get It Done From Trinity
-                                Experts In Just Few Minutes
-
-                            </h2>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row align-items-center">
-                    <div class="col-xl-6 col-lg-6 col-md-10">
-                        <div class="card border-0">
-                            <div class="card-body">
-                                <h2 class="card-title"><i class="fas fa-star"></i>
-                                    TAX ASSESSMENT</h2>
-                                <p class="card-text text-rght">Facing issue with tax assessment verification on Trinity Balaji
-                                    portal. We will try do it for you just in few minutes.</p>
-                            </div>
-                        </div>
-                        <div class="card border-0">
-                            <div class="card-body">
-                                <h2 class="card-title">
-                                    <i class="fas fa-star"></i>
-                                    KEY PERSON VALIDATION
-                                </h2>
-                                <p class="card-text">We will verify your key person validation, we will try, but we can
-                                    verify it if we have created your Trinity Balaji portal account.</p>
-                            </div>
-                        </div>
-                        <div class="card border-0">
-                            <div class="card-body">
-                                <h2 class="card-title">
-                                    <i class="fas fa-star"></i>
-                                    PFMS VERIFICATION
-                                </h2>
-                                <p class="card-text">Facing issue with bank account verification on Trinity Balaji portal. Let us
-                                    know we will do it for you.</p>
-                            </div>
-                        </div>
-                        <div class="card border-0">
-                            <div class="card-body">
-                                <h2 class="card-title">
-                                    <i class="fas fa-star"></i>
-                                    OFFICE LOCATION VERIFICATION
-                                </h2>
-                                <p class="card-text">Facing issue with office location verification on Trinity Balaji portal. Let
-                                    us help you in this step. We can do it for you.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-5 col-lg-6 col-md-9 offset-md-1 offset-sm-1">
-                        <div class="about-right-cap">
-                            <div class="about-right-img">
-                                <img src="assets/img/trinity/Pic7.png" alt="">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>  -->
 
         <section class="about-low-area section-padding40">
             <div class="container">
-                <div class="row justify-content-center">
+                <div class="row justify-content-center" data-aos="flip-down" data-aos-duration="2000">
                     <div class="col-xs-12 col-lg-12 col-md-10">
                         <div class="section-title mb-35">
                             <h2 class="text-center">OEM PANEL ACTIVATION
@@ -692,7 +628,7 @@ We can help you with all your Trinity Balaji-related problems. Our Trinity Balaj
                         </div>
                     </div>
                 </div>
-                <div class="row justify-content-center">
+                <div class="row justify-content-center"  data-aos="flip-up" data-aos-duration="2000">
                     <div class="col-xs-12 col-lg-12 col-md-10">
                         <div class="section-title mb-35">
                             <h1 class="text-center font-lg">
@@ -703,7 +639,7 @@ We can help you with all your Trinity Balaji-related problems. Our Trinity Balaj
                 </div>
                 <div class="row justify-content-center">
                     <div class="col-xs-12 col-lg-12 col-md-10">
-                        <div class="section-title mb-35">
+                        <div class="section-title mb-35"  data-aos="flip-down" data-aos-duration="2000">
                             <h2 class="text-center">Are you stuck with your vendor assessment? Do you want to become an
                                 OEM on Trinity Balaji?
 
@@ -716,7 +652,7 @@ We can help you with all your Trinity Balaji-related problems. Our Trinity Balaj
                         <div class="about-caption mb-50">
                             <!-- Section Tittle -->
 
-                            <p>
+                            <p data-aos="fade-in" data-aos-duration="2000">
                                 We can provide you complete training and support for the Trinity Balaji portal. Our team of experts
                                 can guide you with all the solutions for the Trinity Balaji portal. With the completion of vendor
                                 assessment, we will active your OEM Panel. We are Trinity Balaji Portal Experts With 4+ Years Of
@@ -724,7 +660,7 @@ We can help you with all your Trinity Balaji-related problems. Our Trinity Balaj
                             </p>
                             <div class="row">
                                 <div class="col text-center ">
-                                    <button type="button" class=" btn-success-custom"><a href="our-packages.html"></a>Activate
+                                    <button type="button"  data-aos="fade-in" data-aos-duration="2000" class=" btn-success-custom"><a href="our-packages.html"></a>Activate
                                         My OEM Panel</button>
                                 </div>
                             </div>
@@ -742,7 +678,7 @@ We can help you with all your Trinity Balaji-related problems. Our Trinity Balaj
 
                 <div class="row justify-content-center">
                     <div class="col-xs-12 col-lg-12 col-md-10">
-                        <div class="section-title mb-35">
+                        <div class="section-title mb-35"  data-aos="flip-down" data-aos-duration="2000">
                             <h1 class="text-center">Benefits of Trinity Balaji Registration
 
 
@@ -752,7 +688,7 @@ We can help you with all your Trinity Balaji-related problems. Our Trinity Balaj
                 </div>
                 <div class="row justify-content-center">
                     <div class="col-xs-12 col-lg-12 col-md-10">
-                        <div class="section-title mb-35">
+                        <div class="section-title mb-35"  data-aos="flip-up" data-aos-duration="2000">
                             <h2 class="text-center">SELL DIRECTLY TO GOVERNMENT
 
                             </h2>
@@ -762,9 +698,7 @@ We can help you with all your Trinity Balaji-related problems. Our Trinity Balaj
                 <div class="row align-items-center">
                     <div class="col-xl-12 col-lg-12 col-md-10">
                         <div class="about-caption mb-50">
-                            <!-- Section Tittle -->
-
-                            <p>
+                            <p data-aos="fade-in" data-aos-duration="2000">
                                
 Dealers can offer their products and services at reasonable cost legitimately to government buyers with their prices. As for few products only the OEM and their authorised dealers can sell products to government only. While others may offer any product. portal seller consultants.
 <br/>
@@ -776,7 +710,7 @@ There is a possibility for Trinity Balaji registration as a startup on Trinity B
                             </p>
                             <div class="row">
                                 <div class="col-md-4">
-                                    <div class="card border-0 text-center" style="padding-top: 20px;">
+                                    <div class="card border-0 text-center" style="padding-top: 20px;" data-aos="flip-left" data-aos-duration="2000">
                                         <div class="card-body">
                                             <i class="fa fa-link fa-4x fa-3em" aria-hidden="true"></i>
                                             <br /><br />
@@ -791,7 +725,7 @@ There is a possibility for Trinity Balaji registration as a startup on Trinity B
                                 </div>
 
                                 <div class="col-md-4">
-                                    <div class="card border-0 text-center" style="padding-top: 20px;">
+                                    <div class="card border-0 text-center" style="padding-top: 20px;" data-aos="flip-left" data-aos-duration="2000">
                                         <div class="card-body">
                                             <i class="fa fa-rocket fa-4x fa-3em" aria-hidden="true"></i>
                                             <br /><br />
@@ -805,7 +739,7 @@ There is a possibility for Trinity Balaji registration as a startup on Trinity B
                                     </div>
                                 </div>
                                 <div class="col-md-4">
-                                    <div class="card border-0 text-center">
+                                    <div class="card border-0 text-center" data-aos="flip-left" data-aos-duration="2000">
                                         <div class="card-body">
                                             <img src="assets/img/trinity/Customer.png" alt="" class="width-30">
                                             <h2 class="card-title">
@@ -836,26 +770,22 @@ There is a possibility for Trinity Balaji registration as a startup on Trinity B
                             <div class="about-right-img">
                                 <img src="assets/img/trinity/Pic10.png" alt="" class="img-fluid">
                             </div>
-                            <!--  <div class="img-cap">
-                            <span>20</span>
-                            <p>Years of experience</p>
-                        </div> -->
+                        </div> 
                         </div>
-                    </div>
+                    
                     <div class="col-xl-6 col-lg-6 col-md-10">
                         <div class="about-caption mb-50">
-                            <!-- Section Tittle -->
                             <div class="row justify-content-center">
                                 <div class="col-xs-12 col-lg-12 col-md-10">
-                                    <div class="section-title mb-35">
+                                    <div class="section-title mb-35" data-aos="fade-left" data-aos-duration="2000">
                                         <h1 class="text-center">How We Provide Services As Trinity Balaji
                                         </h1>
                                     </div>
                                 </div>
                             </div>
-                            <p>
+                            <p data-aos="fade-in" data-aos-duration="2000">
                                 The simplest and best way to provide you the best consultancy for Trinity Balaji portal.
-                            <ul class="custom-font">
+                            <ul class="custom-font" data-aos="fade-in" data-aos-duration="2000">
                                 <li><i class="fas fa-check orangeiconcolor"></i> Choose & Buy Your Package</li>
                                 <li><i class="fas fa-check orangeiconcolor"></i> Make Payment & Fill Required Details
                                 </li>
@@ -878,20 +808,19 @@ There is a possibility for Trinity Balaji registration as a startup on Trinity B
 
                     <div class="col-xl-6 col-lg-6 col-md-10">
                         <div class="about-caption mb-50">
-                            <!-- Section Tittle -->
                             <div class="row justify-content-center">
                                 <div class="col-xs-12 col-lg-12 col-md-10">
-                                    <div class="section-title mb-35">
+                                    <div class="section-title mb-35" data-aos="fade-right" data-aos-duration="2000">
                                         <h1 class="text-center">Trinity Balaji Services
                                         </h1>
 
                                     </div>
                                 </div>
                             </div>
-                            <p class="text-center">
+                            <p class="text-center" data-aos="fade-in" data-aos-duration="2000">
                                 All Trinity Balaji portal services at a single place.
                             <div class="row">
-                                <div class="col text-center">
+                                <div class="col text-center" data-aos="fade-in" data-aos-duration="2000">
                                     <button type="button" class="btn-primary1 white-text"><a href="#">EXPLORE
                                             PACKAGES</a></button>
                                 </div>
@@ -901,41 +830,48 @@ There is a possibility for Trinity Balaji registration as a startup on Trinity B
                     </div>
                     <div class="col-xl-5 col-lg-6 col-md-9 offset-md-1 offset-sm-1">
 
-                        <div class="row">
+                        <div class="row p-2">
                             <div class="col-md-6">
-                                <div class="card border-0">
+                                <div class="card border-0" data-aos="flip-left" data-aos-duration="2000">
                                     <div class="card-body">
-                                        <h3 class="card-title">TRINITY REGISTRATION
+                                        <h3 class="card-title">
+                                            TRINITY REGISTRATION
                                         </h3>
-                                        <p class="card-text">We will help you in getting registered on the Trinity
-                                            Balaji Portal.</p>
+                                        <p class="card-text">
+                                            We will help you in getting registered on the Trinity
+                                            Balaji Portal.
+                                        </p>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-md-6">
-                                <div class="card border-0">
+                                <div class="card border-0" data-aos="flip-left" data-aos-duration="2000" >
                                     <div class="card-body">
                                         <h3 class="card-title">
-                                            PRODUCT UPLOAD</h3>
+                                            PRODUCT UPLOAD
+                                        </h3>
                                         <p class="card-text">We will help you in uploading your products on the Trinity
-                                            Balaji Portal.</p>
+                                            Balaji Portal.
+                                        </p>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-md-6">
-                                <div class="card border-0">
+                                <div class="card border-0" data-aos="flip-left" data-aos-duration="2000">
                                     <div class="card-body">
                                         <h3 class="card-title">
-                                            SERVICE UPLOAD</h3>
+                                            SERVICE UPLOAD
+                                        </h3>
                                         <p class="card-text">Will help you in uploading your services on the Trinity
-                                            Balaji Portal.</p>
+                                            Balaji Portal.
+                                        </p>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-md-6">
-                                <div class="card border-0">
+                                <div class="card border-0" data-aos="flip-left" data-aos-duration="2000">
                                     <div class="card-body">
                                         <h3 class="card-title">
                                             BIDDING ON TENDERS</h3>
@@ -959,13 +895,13 @@ There is a possibility for Trinity Balaji registration as a startup on Trinity B
                     <div class="col-xl-6 col-lg-6 col-md-10">
                         <div class="about-caption mb-50">
                             <!-- Section Tittle -->
-                            <div class="section-title mb-35">
+                            <div class="section-title mb-35" data-aos="fade-right" data-aos-duration="2000">
 
                                 <h2>Trinity Balaji Registration For Startup</h2>
                                 <h3>Benefits For Startups on Trinity Balaji</h3>
                             </div>
                             <p>
-                            <ul class="custom-font">
+                            <ul class="custom-font" data-aos="fade-in" data-aos-duration="2000">
                                 <li><i class="fas fa-check orangeiconcolor"></i> High ROI</li>
                                 <li><i class="fas fa-check orangeiconcolor"></i> Easy Registration</li>
                                 <li><i class="fas fa-check orangeiconcolor"></i> Less Work For Profit</li>
@@ -986,10 +922,6 @@ There is a possibility for Trinity Balaji registration as a startup on Trinity B
                             <div class="about-right-img">
                                 <img src="assets/img/trinity/Pic9.png" alt="" class="img-fluid">
                             </div>
-                            <!-- <div class="img-cap">c
-                                    <span>20</span>
-                                    <p>Years of experience</p>
-                            </div> -->
                         </div>
                     </div>
                 </div>
@@ -1003,7 +935,7 @@ There is a possibility for Trinity Balaji registration as a startup on Trinity B
 
                 <div class="row justify-content-center">
                     <div class="col-xs-12 col-lg-12 col-md-10">
-                        <div class="section-title mb-35">
+                        <div class="section-title mb-35" data-aos="flip-down" data-aos-duration="2000">
                             <h1 class="text-center">
                                 We Transform Your Vision into Creative Results
                             </h1>
@@ -1012,7 +944,7 @@ There is a possibility for Trinity Balaji registration as a startup on Trinity B
                 </div>
                 <div class="row justify-content-center">
                     <div class="col-xs-12 col-lg-12 col-md-10">
-                        <div class="section-title mb-35">
+                        <div class="section-title mb-35" data-aos="flip-up" data-aos-duration="2000">
                             <h3 class="text-center">
                                 We provide all the solutions for your Trinity Balaji portal problems.
                             </h3>
@@ -1021,7 +953,7 @@ There is a possibility for Trinity Balaji registration as a startup on Trinity B
                 </div>
                 <div class="row justify-content-center">
                     <div class="col-xs-12 col-lg-12 col-md-10">
-                        <div class="section-title mb-35">
+                        <div class="section-title mb-35" data-aos="flip-down" data-aos-duration="2000">
                             <h2 class="text-center">
                                 Who can sell on Trinity Balaji?
                             </h2>
@@ -1030,7 +962,7 @@ There is a possibility for Trinity Balaji registration as a startup on Trinity B
                 </div>
                 <div class="row align-items-center">
                     <div class="col-xl-12 col-lg-12 col-md-10">
-                        <div class="about-caption mb-50">
+                        <div class="about-caption mb-50" data-aos="fade-in" data-aos-duration="2000">
                             <p>
                                 The seller on Trinity Balaji will be the member of Original Equipment Manufactures and/ or their
                                 authorised channel partners/ resellers to sell their items in the open e-marketplace.
@@ -1042,14 +974,49 @@ There is a possibility for Trinity Balaji registration as a startup on Trinity B
                 </div>
             </div>
         </section>
+        <section class="about-low-area section-padding40">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-xs-12 col-lg-12 col-md-10">
+                        <div class="section-title mb-35"  data-aos="flip-down" data-aos-duration="2000">
+                            <h1 class="text-center">
+                                Advantages of GeM Portal Registration through Balaji Trinity Services
+                            </h1>
+                        </div>
+                    </div>
+                </div>
+             
+                <div class="row align-items-center">
+                    <div class="col-xl-12 col-lg-12 col-md-10">
+                        <div class="display-7"  data-aos="fade-in" data-aos-duration="2000">
+                            <ul>
+                                <li>    • One stop shop for marketing with minimal efforts. All the products and services are getting offered in one place which is beneficial for the sellers and buyers.</li>
+                                <li>    • One stop shop for bids / reverse auction on products / services. The seller and the buyer both 
+                                </li>
+                                <li>    • New Product Suggestion facility available to Sellers. The bidding auction gets displayed in the site and the interested sellers put up their products and services under the auction form.
+                                </li>
+                                <li>  • Seller friendly dashboard for selling and monitoring of supplies and payments. The seller do not have to continously monitor its progress for selling the items. The Dashboard has all the information related to it.</li>
+                                <li>  • Consistent and uniform purchase procedures. There will no deviation in the procedures for procuring the goods and services.</li>
+                                <li>  • Easy Return policy. The buyer, if does not like the products can easily replace it with another one.</li>
+                                <li>  • Buying Goods and Services online, as and when required. The buyer and the seller both have the option to buy sell as and when required.</li>
+                                <li> • Transparent and ease of buying. No fraudisim would be detected as to who receives the contract due to transparency of the process.</li>
+                                <li>  • User-friendly dash board for Buying and monitoring supplies and payments</li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
 
 
         <section class="about-low-area section-padding40">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-xs-12 col-lg-12 col-md-10">
-                        <div class="section-title mb-35">
-                            <h1 class="text-center" data-animation="fadeInRight" data-delay="3s">
+                        <div class="section-title mb-35" data-aos="flip-down" data-aos-duration="2000">
+                            <h1 class="text-center">
                                 Become A Reseller/Trader On Trinity Balaji
                             </h1>
                         </div>
@@ -1057,7 +1024,7 @@ There is a possibility for Trinity Balaji registration as a startup on Trinity B
                 </div>
                 <div class="row align-items-center">
                     <div class="col-xl-6 col-lg-6 col-md-10">
-                        <div class="card border-0">
+                        <div class="card border-0"  data-aos="flip-right" data-aos-duration="2000">
                             <div class="card-body">
                                 <h2 class="card-title font-17"><i class="fas fa-star"></i>
                                     Resell On Trinity Balaji
@@ -1067,7 +1034,7 @@ There is a possibility for Trinity Balaji registration as a startup on Trinity B
                                 </p>
                             </div>
                         </div>
-                        <div class="card border-0">
+                        <div class="card border-0"  data-aos="flip-right" data-aos-duration="2000">
                             <div class="card-body">
                                 <h2 class="card-title font-17">
                                     <i class="fas fa-star"></i>
@@ -1113,14 +1080,14 @@ There is a possibility for Trinity Balaji registration as a startup on Trinity B
                         <div class="about-caption mb-50">
                             <div class="row justify-content-center">
                                 <div class="col-xs-12 col-lg-12 col-md-10">
-                                    <div class="section-title mb-35">
+                                    <div class="section-title mb-35"  data-aos="fade-left" data-aos-duration="2000">
                                         <h2 class="text-center">
                                             Unable To Find Your Products Category On Trinity Balaji Portal?
                                         </h2>
                                     </div>
                                 </div>
                             </div>
-                            <p>
+                            <p  data-aos="fade-in" data-aos-duration="2000">
                                 We Trinity Balaji Consultants can help you in uploading your product in the right category. Our
                                 teams have experience of 4+ years on Trinity Balaji. Our Experts can upload your products in the
                                 right category on the Trinity Balaji portal. Just provide us the product specifications, and your
@@ -1140,13 +1107,13 @@ There is a possibility for Trinity Balaji registration as a startup on Trinity B
                         <div class="about-caption mb-50">
                             <div class="row justify-content-center">
                                 <div class="col-xs-12 col-lg-12 col-md-10">
-                                    <div class="section-title mb-35">
+                                    <div class="section-title mb-35"  data-aos="fade-right" data-aos-duration="2000">
                                         <h2 class="text-center">
                                             Secure Your Brand On Trinity Balaji With Our Help </h2>
                                     </div>
                                 </div>
                             </div>
-                            <p>
+                            <p  data-aos="fade-in" data-aos-duration="2000">
                                 We can help you in securing your brand name on trinity portal, so that no once can sell
                                 with your brand name on trinity without your authorisation and approval. This is a best
                                 way to make yourself a brand on trinity portal.
@@ -1172,61 +1139,13 @@ There is a possibility for Trinity Balaji registration as a startup on Trinity B
         </section>
 
 
-
-        <!-- <section class="about-low-area section-padding40">
-            <div class="container">
-
-                <div class="row justify-content-center">
-                    <div class="col-xs-12 col-lg-12 col-md-10">
-                        <div class="section-title mb-35">
-                            <h1 class="text-center">Start On Trinity Balaji As Seller & Grow
-                            </h1>
-                        </div>
-                    </div>
-                </div>
-                <div class="row justify-content-center">
-                    <div class="col-xs-12 col-lg-12 col-md-10">
-                        <div class="section-title mb-35">
-                            <h2 class="text-center">Benefits Of Trading On Trinity Balaji​
-
-                            </h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="row align-items-center">
-                    <div class="col-xl-12 col-lg-12 col-md-10">
-                        <div class="display-7">
-                            <ul>
-                                <li><span><i class="fas fa-play fa-xs"></i></span> Uniform and efficient purchase
-                                    procedures</li>
-                                <li><i class="fas fa-play fa-xs"></i> Buyers are Government Departments Only</li>
-                                <li><i class="fas fa-play fa-xs"></i> Unique benefits for startups with relaxed norms
-                                </li>
-                                <li><i class="fas fa-play fa-xs"></i> An excellent facility to recommend new products
-                                </li>
-                                <li><i class="fas fa-play fa-xs"></i> Direct and easy access to all government
-                                    departments</li>
-                                <li><i class="fas fa-play fa-xs"></i> One-stop-shop for bids and reverse auction on
-                                    services and products</li>
-                                <li><i class="fas fa-play fa-xs"></i> A comprehensive and easy-to-use dashboard for
-                                    selling and monitoring your supplies as well as payments</li>
-
-                            </ul>
-                        </div>
-
-                    </div>
-
-                </div>
-            </div>
-        </section> -->
         <section class="about-low-area section-padding40">
             <div class="container">
-
                 <div class="row justify-content-center">
                     <div class="col-xs-12 col-lg-12 col-md-10">
-                        <div class="section-title mb-35">
+                        <div class="section-title mb-35"  data-aos="flip-down" data-aos-duration="2000">
                             <h1 class="text-center">
-                                Benefits to sell your products or services directly through GeM
+                                Benefits to sell your products or services directly through Trinity Balaji
 
                             </h1>
                         </div>
@@ -1234,7 +1153,7 @@ There is a possibility for Trinity Balaji registration as a startup on Trinity B
                 </div>
                 <div class="row justify-content-center">
                     <div class="col-xs-12 col-lg-12 col-md-10">
-                        <div class="section-title mb-35">
+                        <div class="section-title mb-35"  data-aos="flip-up" data-aos-duration="2000">
                             <h2 class="text-center">
                                 Special provisions and sections for startups, MSMEs and Emporium products.
                             </h2>
@@ -1243,7 +1162,7 @@ There is a possibility for Trinity Balaji registration as a startup on Trinity B
                 </div>
                 <div class="row align-items-center">
                     <div class="col-xl-12 col-lg-12 col-md-10">
-                        <div class="display-7">
+                        <div class="display-7"  data-aos="fade-in" data-aos-duration="2000">
                             <ul>
                                 <li>    • Fully online, paperless and contactless platform. There is no need now sign or fill up any physical forms, which was very tedious due to submission of many documents.</li>
                                 <li>    • Seller friendly dashboard for monitoring supplies & payments.
@@ -1271,7 +1190,7 @@ There is a possibility for Trinity Balaji registration as a startup on Trinity B
 
                 <div class="row justify-content-center">
                     <div class="col-xs-12 col-lg-12 col-md-10">
-                        <div class="section-tittle mb-35">
+                        <div class="section-tittle mb-35"  data-aos="flip-down" data-aos-duration="2000">
                             <h2 class="text-center display-3 font-17">WHAT WE HAVE DONE TILL NOW IN NUMBERS
                             </h2>
                         </div>
@@ -1282,7 +1201,7 @@ There is a possibility for Trinity Balaji registration as a startup on Trinity B
                         <div class="about-caption mb-50">
                             <div class="row p-4">
                                 <div class="col-md-4">
-                                    <div class="card text-center">
+                                    <div class="card text-center" data-aos="flip-right" data-aos-duration="2000">
                                         <div class="card-body">
 
                                             <h1 class="card-title xl-font-custom">
@@ -1294,7 +1213,7 @@ There is a possibility for Trinity Balaji registration as a startup on Trinity B
                                 </div>
 
                                 <div class="col-md-4">
-                                    <div class="card text-center">
+                                    <div class="card text-center" data-aos="flip-down" data-aos-duration="2000">
                                         <div class="card-body">
 
                                             <h1 class="card-title xl-font-custom">
@@ -1305,7 +1224,7 @@ There is a possibility for Trinity Balaji registration as a startup on Trinity B
                                     </div>
                                 </div>
                                 <div class="col-md-4">
-                                    <div class="card text-center">
+                                    <div class="card text-center" data-aos="flip-left" data-aos-duration="2000">
                                         <div class="card-body">
 
                                             <h1 class="card-title xl-font-custom">
@@ -1331,7 +1250,7 @@ There is a possibility for Trinity Balaji registration as a startup on Trinity B
 
                 <div class="row justify-content-center">
                     <div class="col-xs-12 col-lg-12 col-md-10">
-                        <div class="section-title mb-35">
+                        <div class="section-title mb-35" data-aos="flip-down" data-aos-duration="2000">
                             <h1 class="text-center">
                                 Become A Seller On Trinity Balaji
                             </h1>
@@ -1341,7 +1260,7 @@ There is a possibility for Trinity Balaji registration as a startup on Trinity B
                 <div class="row align-items-center">
                     <div class="col-xl-12 col-lg-12 col-md-10">
                         <div class="about-caption pl-70">
-                            <p>
+                            <p data-aos="fade-in" data-aos-duration="2000">
                                 Sell with your brand name on Trinity Balaji if you are a manufacturer. All the Manufacturers have
                                 to get their OEM panel activated so that they can claim and sell with their brand names.
                                 Once the OEM panel is activated manufacturers can start selling their products. A
@@ -1369,10 +1288,10 @@ There is a possibility for Trinity Balaji registration as a startup on Trinity B
                     </div>
                     <div class="col-xl-6 col-lg-6 col-md-10">
                         <div class="about-caption">
-                            <div class="section-tittle mb-35">
+                            <div class="section-tittle mb-35" data-aos="fade-left" data-aos-duration="2000">
                                 <h2>Experts Ready To Help You</h2>
                             </div>
-                            <p>
+                            <p data-aos="fade-in" data-aos-duration="2000">
                                 We have Trinity Balaji Portal Experts who are always ready to help you with all your
                                 queries. Get
                                 all your work done from our experts, meanwhile you can relax. Let them do all the work
@@ -1433,7 +1352,7 @@ There is a possibility for Trinity Balaji registration as a startup on Trinity B
 
                 <div class="row">
                     <div class="col-xs-12 col-lg-12 col-md-10">
-                        <div class="section-title mb-35">
+                        <div class="section-title mb-35" data-aos="flip-down" data-aos-duration="2000">
                             <h1 class="text-center">
                                 Why Choose Us
                             </h1>
@@ -1443,7 +1362,7 @@ There is a possibility for Trinity Balaji registration as a startup on Trinity B
 
                 <div class="row">
                     <div class="col-xs-12 col-lg-12 col-md-10">
-                        <div class="section-title mb-35">
+                        <div class="section-title mb-35" data-aos="flip-down" data-aos-duration="2000">
                             <h2 class="text-center">
                                 We Have 4+ Years Of Experience
                             </h2>
@@ -1451,17 +1370,17 @@ There is a possibility for Trinity Balaji registration as a startup on Trinity B
                     </div>
                 </div>
                 <div class="row justify-content-between mb-30">
-                    <div class="col-md-6 ">
-                        <div class="card border-0">
-                            <div class="card-body">
+                    <div class="col-md-4 ">
+                        <div class="card border-0" data-aos="fade-right" data-aos-duration="2000">
+                            <div class="card-body text-center">
                                 <h2 class="card-title font-20"><i class="fas fa-thumbs-up yellowiconcolor fa-2x"></i>
                                     Assured Customer Satisfaction</h2>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 align-left-xs">
-                        <div class="card border-0">
-                            <div class="card-body">
+                    <div class="col-md-4">
+                        <div class="card border-0" data-aos="fade-right" data-aos-duration="2000">
+                            <div class="card-body text-center">
                                 <h2 class="card-title font-20"><i class="fas fa-lock yellowiconcolor fa-2x"></i>
                                     Client Data Confidentiality</h2>
                             </div>
@@ -1469,9 +1388,9 @@ There is a possibility for Trinity Balaji registration as a startup on Trinity B
                     </div>
                 </div>
                 <div class="row justify-content-between mb-30">
-                    <div class="col-md-6">
-                        <div class="card border-0">
-                            <div class="card-body">
+                    <div class="col-md-4">
+                        <div class="card border-0" data-aos="fade-left" data-aos-duration="2000">
+                            <div class="card-body text-center">
                                 <h2 class="card-title font-20"><i
                                         class="far fa-money-bill-alt yellowiconcolor fa-2x"></i>
                                     No Hidden Charges</h2>
@@ -1479,9 +1398,9 @@ There is a possibility for Trinity Balaji registration as a startup on Trinity B
                         </div>
                     </div>
 
-                    <div class="col-md-6 align-left-xs">
-                        <div class="card border-0">
-                            <div class="card-body">
+                    <div class="col-md-4 align-left-xs">
+                        <div class="card border-0" data-aos="fade-left" data-aos-duration="2000">
+                            <div class="card-body text-center">
                                 <h2 class="card-title font-20"><i class="fas fa-laptop yellowiconcolor fa-2x"></i>
                                     Secured Online Payments</h2>
                             </div>
@@ -1501,21 +1420,21 @@ There is a possibility for Trinity Balaji registration as a startup on Trinity B
                             <!-- Section Tittle -->
                             <div class="row justify-content-center">
                                 <div class="col-xs-12 col-lg-12 col-md-10">
-                                    <div class="section-title mb-35">
+                                    <div class="section-title mb-35" data-aos="fade-right" data-aos-duration="2000">
                                         <h2 class="text-center">
                                             Our Services Are Available In Every State Of India.
                                         </h2>
                                     </div>
                                 </div>
                             </div>
-                            <p>
+                            <p data-aos="fade-in" data-aos-duration="2000">
                                 Trinity Balaji Consultants has helped numerous organisations to get the online Trinity Balaji enrolment
                                 effectively for pan India. You may reach us to get your Trinity Balaji Registration in Delhi,
                                 Mumbai, Bangalore, Kolkata, Kanpur, Bareilly, Lucknow, Kanpur, Ghaziabad, Ludhiana,
                                 Faridabad, Meerut, Varanasi, Srinagar, Amritsar, Allahabad, Chandigarh, Bareilly,
                                 Moradabad, Gurgaon, Aligarh, Jalandhar or some other cities in India.
                             <div class="row">
-                                <div class="col text-center">
+                                <div class="col text-center" data-aos="fade-in" data-aos-duration="2000">
                                     <button type="button" class="btn-primary1 white-text">Start Now</button>
                                 </div>
                             </div>
@@ -1538,8 +1457,8 @@ There is a possibility for Trinity Balaji registration as a startup on Trinity B
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-xs-12 col-lg-12 col-md-10">
-                        <div class="section-title mb-35">
-                            <h2 class="text-center" data-animation="fadeInRight" data-delay="3s">
+                        <div class="section-title mb-35" data-aos="flip-down" data-aos-duration="2000">
+                            <h2 class="text-center">
                                 Government e-Marketplace Training
                             </h2>
                         </div>
@@ -1549,10 +1468,10 @@ There is a possibility for Trinity Balaji registration as a startup on Trinity B
                     <div class="col-xl-6 col-lg-6 col-md-10">
                         <div class="about-caption mb-50">
 
-                            <p>
+                            <p data-aos="fade-in" data-aos-duration="2000">
                                 We provide complete Trinity Balaji portal training so that you don’t need to go somewhere else to
                                 get it all done for you.
-                            <ul class="custom-font">
+                            <ul class="custom-font" data-aos="flip-down" data-aos-duration="2000">
                                 <li><i class="fas fa-check orangeiconcolor"></i> Registration</li>
                                 <li><i class="fas fa-check orangeiconcolor"></i> Brand Approval</li>
                                 <li><i class="fas fa-check orangeiconcolor"></i> Profile Completion</li>
@@ -1575,46 +1494,12 @@ There is a possibility for Trinity Balaji registration as a startup on Trinity B
             </div>
         </section>
 
-      <!--   <section>
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-xs-12 col-lg-12 col-md-10">
-                        <div class="section-title mb-35">
-                            <h2 class="text-center" data-animation="fadeInRight" data-delay="3s">
-                                Our Certificates
-                            </h2>
-                        </div>
-                    </div>
-                </div>
-                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-                    <div class="carousel-indicators">
-                       
-                    </div>
-                    <div class="carousel-inner">
-
-                        <div class="carousel-item active">
-                            <div class="row justify-content-center">
-                                <div class="col-md-4"> <img src="assets/img/trinity/Pic18.png" class="d-block img-fluid"
-                                        alt="" width="50%" height="auto">
-                                </div>
-                                <div class="col-md-4"> <img src="assets/img/trinity/Pic19.png"
-                                        class="d-block  img-fluid" alt="" width="50%" height="auto">
-                                </div>
-                            </div>
-
-                        </div>
-                        
-                    </div>
-                </div>
-            </div>
-        </section> -->
-
         <section class="about-low-area section-padding40 mt-20">
             <div class="container">
 
                 <div class="row justify-content-center">
                     <div class="col-xs-12 col-lg-12 col-md-10">
-                        <div class="section-title mb-35">
+                        <div class="section-title mb-35" data-aos="flip-down" data-aos-duration="2000">
                             <h1 class="text-center display-3">
                                 Like & Follow Us On Social Media
                             </h1>
@@ -1624,24 +1509,24 @@ There is a possibility for Trinity Balaji registration as a startup on Trinity B
 
                 <div class="row justify-content-center">
                     <div class="col-md-2 col-xs-4">
-                        <div class="card text-center p-4">
+                        <div class="card text-center p-4" data-aos="flip-right" data-aos-duration="2000">
                             <div class="card-body">
-                                <i class="fab fa-facebook-f fa-3x"></i>
+                                <i class="fab fa-facebook-f fa-3x blue-icon" ></i>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-md-2 col-xs-4">
-                        <div class="card text-center p-4">
+                        <div class="card text-center p-4" data-aos="flip-up" data-aos-duration="2000">
                             <div class="card-body">
-                                <i class="fab fa-twitter fa-3x"></i>
+                                <i class="fab fa-twitter fa-3x blue-icon"></i>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-2 col-xs-4">
-                        <div class="card text-center p-4">
+                        <div class="card text-center p-4" data-aos="flip-left" data-aos-duration="2000">
                             <div class="card-body">
-                                <i class="fab fa-linkedin fa-3x" aria-hidden="true"></i>
+                                <i class="fa fa-linkedin-square fa-3x blue-icon" aria-hidden="true"></i>
 
                             </div>
                         </div>

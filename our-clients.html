@@ -25,16 +25,32 @@
     <link rel="stylesheet" href="assets/css/slick.css">
     <link rel="stylesheet" href="assets/css/nice-select.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 
     <script>
+          $(function() {
+          AOS.init();
+     });
         $(function () {
             $('#header').load("header.html");
             $('#footer').load("footer.html");
             $('#loader').load("loader.html");
 
         });
+        $(document).ready(function() {
+    $( ".mr-auto .nav-item" ).bind( "click", function(event) {
+        event.preventDefault();
+        var clickedItem = $( this );
+        $( ".mr-auto .nav-item" ).each( function() {
+            $( this ).removeClass( "active" );
+        });
+        clickedItem.addClass( "active" );
+    });
+});
 
         var titlearray =["css","js","python","java","android","jquery","ruby"];
 var descriptionarray =["css style","js program","python code","java objects","android program","jquery objects","ruby code"];
@@ -59,9 +75,9 @@ for (var i = 0; i < titlearray.length; i++) {
 
 <body>
  
-    <div id="header"></div>
-    <main>
-       
+    <main >
+        <div id="header"></div>
+
         <section class="about-low-area section-padding40">
             <div class="container">
                 <div class="row align-items-center">
@@ -77,13 +93,13 @@ for (var i = 0; i < titlearray.length; i++) {
                             <div class="row justify-content-center">
                                 <div class="col-xs-12 col-lg-12 col-md-10">
                                     <div>
-                                        <p class="display-01 b font-35">
+                                        <p class="display-01 b font-35"  data-aos="fade-left" data-aos-duration="2000">
                                             Our Clients
                                         </p>
                                     </div>
                                 </div>
                             </div>
-                            <p>
+                            <p  data-aos="fade-in" data-aos-duration="2000">
                                 A few of our clients.
                             </p>
                         </div>
