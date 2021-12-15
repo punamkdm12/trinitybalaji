@@ -46,12 +46,12 @@
   display: block;
   margin: 0 auto;
 }
-.postItem img {
+/* .postItem img {
   height: 270px;
   width: auto;
   object-fit: cover;
 
-}
+} */
 .title_name{
   color: #ff4935;
 }
@@ -392,6 +392,12 @@ text-align: center;
 .black-text{
   color: black;
 }
+.fade-left{
+  overflow-x: hidden;
+}
+.fade-right{
+  overflow-x: hidden;
+}
 .blue-light{
   color:#0be1ed;
 }
@@ -400,6 +406,10 @@ text-align: center;
 }
 body{
   padding-top: 8%;
+}
+html, body{
+  max-width: 100%;
+  overflow-x: hidden;
 }
 .basic-step{
 
@@ -632,7 +642,7 @@ body {
   font-weight: normal;
   font-style: normal;
   font-size: 16px;
-  width: 100%;
+  max-width: 100%;
 }
 
 /* line 10, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_common.scss */
@@ -9612,6 +9622,9 @@ del {
   .h1-sm-text{
     font-size: 25px;
   }
+  .text-center-sm {
+    text-align: left!important;
+}
   .pbc{
     padding-bottom: 25px;
   }
@@ -9728,7 +9741,7 @@ color: white;
   line-height: 1.2;
 }
 .text-center {
-  text-align: center!important;
+  text-align: left!important;
 }
 .font-17{
   font-size: 17px;
@@ -10077,7 +10090,7 @@ px
   display: none;  /* Safari and Chrome */
 }
 .text-center-sm{
-  text-align: center;
+  text-align: left !important;
 }
 }
 
@@ -10099,7 +10112,7 @@ px
     scrollbar-width: none;
 }
 .text-center-sm{
-  text-align: center;
+  text-align: left !important;
 }
 
 
@@ -10161,3 +10174,5 @@ and (min-width : 1224px) {
 @media only screen 
 and (min-width : 1824px) {
   .p-lg-10{padding-top: 10% ;}}
+
+@media only screen and (max-width: 768px) { /* For mobile phones: */ [class*="col-"] { width: 100%; } }
