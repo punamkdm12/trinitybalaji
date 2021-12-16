@@ -202,7 +202,6 @@ a{
 .a-custom:hover{
   color: white;
 }
-
 header {
   position:fixed;  
   z-index:2; 
@@ -219,6 +218,9 @@ header {
 }
 .green-icon{
   color: rgb(68, 230, 108);
+}
+.chocolate-color{
+  color: chocolate;
 }
 .dark-blue-btn{
   background-color: #1f31ae;
@@ -277,7 +279,6 @@ header {
 }
 .cut-corner {
   padding-top: 225px;
-
   margin:10px;
   height:330px;
   fill: #f7685b;
@@ -4355,7 +4356,7 @@ hr {
 @media (max-width: 575px) {
   /* line 1, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_h1-hero.scss */
   .slider-height {
-    height: 500px;
+    height: 260px;
   }
   .blackColor{
     background-color: black;
@@ -4443,7 +4444,7 @@ hr {
   /* line 63, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_h1-hero.scss */
   .slider-area .hero__caption h1 {
     font-size: 50px;
-    line-height: 1.2;
+    line-height: 1.0;
   }
   .blackColor{
     background-color: black;
@@ -4454,7 +4455,7 @@ hr {
   /* line 63, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_h1-hero.scss */
   .slider-area .hero__caption h1 {
     font-size: 35px;
-    line-height: 1.4;
+    line-height: 1.2;
   }
   .blackColor{
     background-color: black;
@@ -4465,7 +4466,7 @@ hr {
   /* line 63, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_h1-hero.scss */
   .slider-area .hero__caption h1 {
     font-size: 29px;
-    line-height: 1.5;
+    line-height: 1.0;
   }
   .blackColor{
     background-color: black;
@@ -9670,8 +9671,12 @@ del {
     -msbox-sizing: border-box;
 }
 body{
-  padding-top: 20%;
+  padding-top: 26%;
 
+}
+html, body{
+  max-width: 100%;
+  overflow-x: hidden;
 }
 img{
    max-width:100%;
@@ -9715,8 +9720,6 @@ color: white;
   font-size: 15px;
 }
 
-
-
 .btn-primary1 {
     background-color: #ff4935;
     padding-top: 6px;
@@ -9740,9 +9743,7 @@ color: white;
   text-transform: normal;
   line-height: 1.2;
 }
-.text-center {
-  text-align: left!important;
-}
+
 .font-17{
   font-size: 17px;
 }
@@ -9980,7 +9981,7 @@ px
     text-align: center;
 }
   .p-zero{
-    height: 700px;
+    height: 560px;
     padding-top: 20%;
   }
   section{
@@ -10089,9 +10090,7 @@ px
 .container::-webkit-scrollbar {
   display: none;  /* Safari and Chrome */
 }
-.text-center-sm{
-  text-align: left !important;
-}
+
 }
 
 
