@@ -489,11 +489,12 @@ html, body{
   background: #f9fafc;
 }
 section:nth-child(even) {
-  background: #f0eded;
+  background: rgb(250, 241, 241);
   padding: 5px;
 }
 section:nth-child(odd){
   padding: 5px;
+  background: rgb(248, 242, 242);
   border: 1px;
 }
 .white-color {
